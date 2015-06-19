@@ -1,0 +1,7 @@
+#!/usr/bin/sudo bash
+set -e -x
+echo deb http://http.debian.net/debian unstable main >> /etc/apt/sources.list
+apt-get update
+apt-get -y -t experimental install dpkg=1.18.1 dpkg-dev=1.18.1
+echo "dpkg hold"|dpkg --set-selections
+echo "dpkg-dev hold"|dpkg --set-selections
