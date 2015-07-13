@@ -1,0 +1,20 @@
+These are the packages which fails with only clang too(without asan)
+
+dwb_20150419git-1
+cxref_1.6e-1
+libkolabxml_1.1.0-3
+scheme48_1.9-5
+source-highlight_3.1.7-1
+libdbi-drivers_0.9.0-3
+m4_1.4.17-4_unstable
+vboot-utils_0~20121212-3
+dbus-c++_0.9.0-6
+rdkit_201503-2
+oce_0.15-5
+upstart_1.11-5
+gtranslator_2.91.7-1
+diagnostics_0.3.3-10
+qbs_1.3.4+dfsg-1
+
+
+
