@@ -1,0 +1,121 @@
+This is log of packages giving ASan errorss while run time
+
+
+-------------------------------------------------------------------
+4
+m17n-im-config
+dpkg-query: no packages found matching m17n-im-config
+Selecting previously unselected package libm17n-im-config0.
+(Reading database ... 153927 files and directories currently installed.)
+Preparing to unpack .../libm17n-im-config0_0.9.0-3_amd64.deb ...
+Unpacking libm17n-im-config0 (0.9.0-3) ...
+Selecting previously unselected package libm17n-im-config-dev.
+Preparing to unpack .../libm17n-im-config-dev_0.9.0-3_amd64.deb ...
+Unpacking libm17n-im-config-dev (0.9.0-3) ...
+Selecting previously unselected package m17n-im-config.
+Preparing to unpack .../m17n-im-config_0.9.0-3_amd64.deb ...
+Unpacking m17n-im-config (0.9.0-3) ...
+Setting up libm17n-im-config0 (0.9.0-3) ...
+dpkg: dependency problems prevent configuration of libm17n-im-config-dev:
+ libm17n-im-config-dev depends on libm17n-dev; however:
+  Package libm17n-dev is not installed.
+
+dpkg: error processing package libm17n-im-config-dev (--install):
+ dependency problems - leaving unconfigured
+Setting up m17n-im-config (0.9.0-3) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for libc-bin (2.19-18) ...
+Errors were encountered while processing:
+ libm17n-im-config-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Correcting dependencies... Done
+The following packages were automatically installed and are no longer required:
+  baobab bluez caribou caribou-antler dconf-editor dconf-tools empathy empathy-common fonts-cantarell gcalctool gir1.2-gmenu-3.0 gir1.2-gtop-2.0
+  gnome-bluetooth gnome-calculator gnome-dictionary gnome-disk-utility gnome-font-viewer gnome-icon-theme-extras gnome-online-miners
+  gnome-packagekit gnome-packagekit-data gnome-packagekit-session gnome-screenshot gnome-session-fallback gnome-shell-extensions gnome-system-log
+  gnome-system-monitor gstreamer0.10-pulseaudio gstreamer1.0-nice gtk2-engines gucharmap libatk-adaptor libatkmm-1.6-1 libavahi-ui-gtk3-0
+  libbluetooth3 libcairomm-1.0-1 libcaribou-gtk-module libcaribou-gtk3-module libchamplain-0.12-0 libchamplain-gtk-0.12-0 libdevmapper-event1.02.1
+  libelfg0 libfarstream-0.2-2 libfftw3-3 libfftw3-long3 libgail-common libgail18 libgcr-3-1 libgdict-1.0-6 libgdict-common libgdu-gtk0 libgdu0
+  libgfbgraph-0.2-0 libglibmm-2.4-1c2a libgssdp-1.0-3 libgtkmm-3.0-1 libgucharmap-2-90-7 libgupnp-1.0-4 libgupnp-igd-1.0-4 libimobiledevice2
+  libjson0 liblcms1 liblvm2app2.2 libmediaart-1.0-0 libnice10 libopenobex1 libpangomm-1.4-1 libparted0debian1 libplist1 libpoppler19
+  libsystemd-daemon0 libsystemd-login0 libt1-5 libtelepathy-farstream3 libtracker-miner-1.0-0 libunique-3.0-0 libusbmuxd1 libvte-2.90-9
+  libvte-2.90-common libzapojit-0.0-0 obex-data-server python-pyatspi python-wxgtk3.0 python-wxversion sound-theme-freedesktop telepathy-logger
+  udisks vino
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  libdatrie-dev libdatrie1 libm17n-dev libthai-dev libthai0
+Suggested packages:
+  libdatrie-doc m17n-docs libthai-doc
+The following NEW packages will be installed:
+  libdatrie-dev libm17n-dev libthai-dev
+The following packages will be upgraded:
+  libdatrie1 libthai0
+2 upgraded, 3 newly installed, 0 to remove and 638 not upgraded.
+1 not fully installed or removed.
+Need to get 284 kB/366 kB of archives.
+After this operation, 1,188 kB of additional disk space will be used.
+Get:1 http://http.debian.net/debian/ unstable/main libdatrie-dev amd64 0.2.9-2 [17.4 kB]
+Get:2 http://http.debian.net/debian/ unstable/main libthai-dev amd64 0.1.22-2 [23.7 kB]
+Get:3 http://http.debian.net/debian/ unstable/main libm17n-dev amd64 1.6.4-3 [243 kB]
+Fetched 284 kB in 8s (32.3 kB/s)                                                                                                                     
+Reading changelogs... Done
+(Reading database ... 153955 files and directories currently installed.)
+Preparing to unpack .../libdatrie1_0.2.9-2_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.9-2) over (0.2.8-1) ...
+Selecting previously unselected package libdatrie-dev:amd64.
+Preparing to unpack .../libdatrie-dev_0.2.9-2_amd64.deb ...
+Unpacking libdatrie-dev:amd64 (0.2.9-2) ...
+Preparing to unpack .../libthai0_0.1.22-2_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.22-2) over (0.1.21-1) ...
+Selecting previously unselected package libthai-dev:amd64.
+Preparing to unpack .../libthai-dev_0.1.22-2_amd64.deb ...
+Unpacking libthai-dev:amd64 (0.1.22-2) ...
+Selecting previously unselected package libm17n-dev.
+Preparing to unpack .../libm17n-dev_1.6.4-3_amd64.deb ...
+Unpacking libm17n-dev (1.6.4-3) ...
+Setting up libdatrie1:amd64 (0.2.9-2) ...
+Setting up libdatrie-dev:amd64 (0.2.9-2) ...
+Setting up libthai0:amd64 (0.1.22-2) ...
+Setting up libthai-dev:amd64 (0.1.22-2) ...
+Setting up libm17n-dev (1.6.4-3) ...
+Setting up libm17n-im-config-dev (0.9.0-3) ...
+Processing triggers for libc-bin (2.19-18) ...
+
+=================================================================
+==13678==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x4bcf55  (/usr/bin/m17n-im-config+0x4bcf55)
+    #1 0x7faef79b168a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79b1739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Indirect leak of 6016 byte(s) in 188 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79a040f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 3095 byte(s) in 250 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef666f9d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 2688 byte(s) in 84 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b1df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 1856 byte(s) in 58 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b1324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 128 byte(s) in 4 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b11a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 96 byte(s) in 2 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79abe3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 18743 byte(s) leaked in 599 allocation(s).
