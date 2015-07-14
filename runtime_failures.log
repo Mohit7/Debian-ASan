@@ -119,3 +119,29 @@ Indirect leak of 96 byte(s) in 2 object(s) allocated from:
     #1 0x7faef79abe3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
 
 SUMMARY: AddressSanitizer: 18743 byte(s) leaked in 599 allocation(s).
+
+
+
+-------------------------------------------------------------------
+19
+magicrescue
+install_check.sh: line 10: [: missing `]'
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+iU  madplay        0.15.2b-8    amd64        MPEG audio player in fixed point
+==17326==ERROR: AddressSanitizer failed to allocate 0x40000 (262144) bytes at address 633000000000 (errno: 12)
+==17326==AddressSanitizer CHECK failed: /tmp/buildd/llvm-toolchain-3.6-3.6.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_posix.cc:187 "(("unable to mmap" && 0)) != (0)" (0x0, 0x0)
+==17326==ERROR: AddressSanitizer failed to allocate 0x2000 (8192) bytes of InternalScopedBuffer (errno: 12)
+ERROR: Failed to mmap
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+iU  magic          7.5.241-1    amd64        VLSI layout tool
+-------------------------------------------------------------------
+
+
