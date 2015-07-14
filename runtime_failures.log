@@ -164,3 +164,778 @@ Direct leak of 8 byte(s) in 2 object(s) allocated from:
 
 SUMMARY: AddressSanitizer: 8 byte(s) leaked in 2 allocation(s).
 -------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+59
+mathomatic
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-======================================
+ii  mathomatic     15.8.2-2     amd64        portable Computer Algebra System (CAS)
+Mathomatic version 15.8.2
+Copyright (C) 1987-2012 George Gesslein II.
+200 equation spaces available in memory,
+1920 kilobytes per equation space.
+ANSI color mode enabled; manage by typing "help color".
+Anything done here is temporary, unless it is saved or redirected.
+1-> mathtex
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mathwar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> matroxset
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> maxima
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> maximus
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mayavi2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mbtserver
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mbuffer
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mccs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcl
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcpp
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcp-plugins
+
+#1: [0;32mmcp - plugins[0m
+
+1-> md5deep
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mda-lv2
+
+#2: [0;32mmda - lv2[0m
+
+2-> mdbus
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mdetect
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mdf2iso
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> meanwhile
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mediainfo
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mediawiki-math
+
+#3: [0;32mmediawiki - math[0m
+
+3-> medit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mednafen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> megaglest
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> megatools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> meliae
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> melting
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> members
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memdump
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memlockd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memstat
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memtester
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> menhir
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> menu
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mergelog
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> merkaartor
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mesa-demos
+
+#4: [0;32mmesa - demos[0m
+
+4-> meschach
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #4.
+4-> metacam
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #4.
+4-> meta-gnome3
+
+#5: [0;32mmeta - gnome3[0m
+
+5-> meta-kde
+
+#6: [0;32mmeta - kde[0m
+
+6-> metapixel
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> metastore
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> metis
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> me-tv
+
+#7: [0;32mme - tv[0m
+
+7-> mew
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #7.
+7-> mew-beta
+
+#8: [0;32mmew - beta[0m
+
+8-> mffm-fftw
+
+#9: [0;32mmffm - fftw[0m
+
+9-> mftrace
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mg
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mgen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mialmpick
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> miaviewit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> miceamaze
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> microcom
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> microdc2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> micro-httpd
+
+#10: [0;32mmicro - httpd[0m
+
+10-> micro-proxy
+
+#11: [0;32mmicro - proxy[0m
+
+11-> midgard2-core
+
+#12: [0;32mmidgard2 - core[0m
+
+12-> mididings
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> mighttpd2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> mikmatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> milkytracker
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> milter-greylist
+
+#13: [0;32mmilter - greylist[0m
+
+13-> mimedefang
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mimelib1
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mimetex
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> min12xxw
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minbar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minbif
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minetest
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> ming
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mingetty
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mingw-ocaml
+
+#14: [0;32mmingw - ocaml[0m
+
+14-> minidlna
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #14.
+14-> mini-httpd
+
+#15: [0;32mmini - httpd[0m
+
+15-> minimodem
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mininet
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minisapserver
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> ministat
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minitube
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miniupnpc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miniupnpd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minizip
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mirage
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miredo
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miro
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> misery
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> missidentify
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> missingh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mixer.app
+          ^ [0;31mSyntax error.
+[0m15-> mixxx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mjpegtools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mklibs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mknfonts.tool
+             ^ [0;31mSyntax error.
+[0m15-> mksh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mktorrent
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mldonkey
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlmmj
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlocate
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpcap
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpost
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlterm
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlv-smile
+
+#16: [0;32mmlv - smile[0m
+
+16-> mmass
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmdb
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmorph
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmpong
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmv
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mnemonicode
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mnormt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> moblin-gtk-engine
+
+#17: [0;32mmoblin - gtk - engine[0m
+
+17-> mobyle
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #17.
+17-> mod-authnz-persona
+
+#18: [0;32mmod - authnz - persona[0m
+
+18-> mod-dnssd
+
+#19: [0;32mmod - dnssd[0m
+
+19-> modem-cmd
+
+#20: [0;32mmodem - cmd[0m
+
+20-> mod-gearman
+
+#21: [0;32mmod - gearman[0m
+
+21-> modglue
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #21.
+21-> mod-mono
+
+#22: [0;32mmod - mono[0m
+
+22-> modplugtools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #22.
+22-> modsecurity-apache
+
+#23: [0;32mmodsecurity - apache[0m
+
+23-> mod-spamhaus
+
+#24: [0;32mmod - spamhaus[0m
+
+24-> mod-vhost-ldap
+
+#25: [0;32mmod - vhost - ldap[0m
+
+25-> mod-wsgi
+
+#26: [0;32mmod - wsgi[0m
+
+26-> mokutil
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> molds
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> mon
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> mon-contrib
+
+#27: [0;32mmon - contrib[0m
+
+27-> monitoring-plugins
+
+#28: [0;32mmonitoring - plugins[0m
+
+28-> mono-fuse
+
+#29: [0;32mmono - fuse[0m
+
+29-> monopd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #29.
+29-> monotone-viz
+
+#30: [0;32mmonotone - viz[0m
+
+30-> monster-masher
+
+#31: [0;32mmonster - masher[0m
+
+31-> monsterz
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #31.
+31-> moodbar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #31.
+31-> moon-buggy
+
+#32: [0;32mmoon - buggy[0m
+
+32-> moon-lander
+
+#33: [0;32mmoon - lander[0m
+
+33-> moonshot-gss-eap
+
+#34: [0;32mmoonshot - gss - eap[0m
+
+34-> moonshot-trust-router
+
+#35: [0;32mmoonshot - trust - router[0m
+
+35-> mooproxy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> moreutils
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morla
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morris
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse2ascii
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morsegen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse-simulator
+
+#36: [0;32mmorse - simulator[0m
+
+36-> mosh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mothur
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> motion
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mountall
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mountpy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mouseemu
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mousetweaks
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> movit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mozplugger
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3blaster
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3check
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3diags
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3splt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3val
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp4v2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpage
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpc123
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpdecimal
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpdscribble
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpegdemux
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpfi
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpgtx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpi4py
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mppenc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpqc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpt-status
+
+#37: [0;32mmpt - status[0m
+
+37-> mpv
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrbayes
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mriconvert
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtdreader
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtg
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtgutils
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtrix
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mruby
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrxvt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mscompress
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> msgpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> msgpack-python
+
+#38: [0;32mmsgpack - python[0m
+
+38-> msktutil
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msmtp
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msort
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msp430-libc
+
+#39: [0;32mmsp430 - libc[0m
+
+39-> msrtool
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #39.
+39-> msr-tools
+
+#40: [0;32mmsr - tools[0m
+
+40-> mssh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mswatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtasc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtpaint
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtpfs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mt-st
+
+#41: [0;32mmt - st[0m
+
+41-> mtx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #41.
+41-> mu-cade
+
+#42: [0;32mmu - cade[0m
+
+42-> mudlet
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multimail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multitail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multitee
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multiwatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mumble
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mummer
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mummy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mumps
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> munge
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muroar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muroard
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muse
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> music
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> musique
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mustang-plug
+
+#43: [0;32mmustang - plug[0m
+
+43-> mvtnorm
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mxml
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mydumper
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mygui
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myodbc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myrescue
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myspell
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mysql++
+           ^ [0;31mSyntax error.
+[0m43-> mysql-connector-c++
+                       ^ [0;31mSyntax error.
+[0m43-> mysql-ocaml
+
+#44: [0;32mmysql - ocaml[0m
+
+44-> mysql-workbench
+
+#45: [0;32mmysql - workbench[0m
+
+45-> mysqmail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #45.
+45-> mythes
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #45.
+45-> mythtvfs-fuse
+
+#46: [0;32mmythtvfs - fuse[0m
+
+46-> packages.list
+             ^ [0;31mSyntax error.
+[0m46-> 
+End of input.
+
+=================================================================
+==22557==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2075 byte(s) in 234 object(s) allocated from:
+    #0 0x4c0a42  (/usr/bin/mathomatic+0x4c0a42)
+    #1 0x7fba06bdf298  (/lib/x86_64-linux-gnu/libreadline.so.6+0x37298)
+
+SUMMARY: AddressSanitizer: 2075 byte(s) leaked in 234 allocation(s).
+-------------------------------------------------------------------
