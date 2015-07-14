@@ -145,3 +145,22 @@ iU  magic          7.5.241-1    amd64        VLSI layout tool
 -------------------------------------------------------------------
 
 
+-------------------------------------------------------------------
+34
+man2html
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-====================================
+iU  man2html       1.6g-7       amd64        browse man pages in your web browser
+
+=================================================================
+==20785==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 8 byte(s) in 2 object(s) allocated from:
+    #0 0x4bcf72  (/usr/bin/man2html+0x4bcf72)
+    #1 0x7fb6139119d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+SUMMARY: AddressSanitizer: 8 byte(s) leaked in 2 allocation(s).
+-------------------------------------------------------------------
