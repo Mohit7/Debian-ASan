@@ -1,0 +1,3356 @@
+This is log of packages giving ASan errorss while run time
+
+
+e……………………..
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+7
+easychem
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  easychem                        0.6-8                amd64                Draw high-quality molecules and 2D chemical formulas
+already installed
+[TRY RUNNING 3:]
+
+=================================================================
+==5912==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7fb190862739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4c2255  (/usr/bin/easychem+0x4c2255)
+        #1 0x7fb19086268a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7fb19085140f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 1639 byte(s) in 134 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7fb1923369d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 1632 byte(s) in 51 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7fb190862df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 928 byte(s) in 29 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7fb190862324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 64 byte(s) in 2 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7fb1908621a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7fb19085ce3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 10903 byte(s) leaked in 322 allocation(s).
+[TRY RUNNING 4:]
+
+=================================================================
+==5914==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7f910ea0b739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4c2255  (/usr/bin/easychem+0x4c2255)
+        #1 0x7f910ea0b68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7f910e9fa40f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 1639 byte(s) in 134 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7f91104df9d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 1632 byte(s) in 51 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7f910ea0bdf8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 928 byte(s) in 29 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7f910ea0b324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 64 byte(s) in 2 object(s) allocated from:
+    #0 0x4c208b  (/usr/bin/easychem+0x4c208b)
+        #1 0x7f910ea0b1a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x4c1f12  (/usr/bin/easychem+0x4c1f12)
+        #1 0x7f910ea05e3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 10903 byte(s) leaked in 322 allocation(s).
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+15
+ebook2cw
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching ebook2cw
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package ebook2cw.
+(Reading database ... 168432 files and directories currently installed.)
+Preparing to unpack .../ebook2cw_0.8.2-1_amd64.deb ...
+Unpacking ebook2cw (0.8.2-1) ...
+Setting up ebook2cw (0.8.2-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+[TRY RUNNING 1:]
+Warning: don't know CW for '_'
+Warning: don't know CW for '_'
+Warning: don't know CW for '~'
+
+=================================================================
+==6334==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 3174 byte(s) in 1 object(s) allocated from:
+    #0 0x4bdb95  (/usr/bin/ebook2cw+0x4bdb95)
+        #1 0x4df937  (/usr/bin/ebook2cw+0x4df937)
+	    #2 0x4dd4ee  (/usr/bin/ebook2cw+0x4dd4ee)
+	        #3 0x7f3644cfbb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 1058 byte(s) in 1 object(s) allocated from:
+    #0 0x4bdb95  (/usr/bin/ebook2cw+0x4bdb95)
+        #1 0x4df97d  (/usr/bin/ebook2cw+0x4df97d)
+	    #2 0x4dd4ee  (/usr/bin/ebook2cw+0x4dd4ee)
+	        #3 0x7f3644cfbb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 4232 byte(s) leaked in 2 allocation(s).
+[TRY RUNNING 2:]
+
+=================================================================
+==6342==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 3174 byte(s) in 1 object(s) allocated from:
+    #0 0x4bdb95  (/usr/bin/ebook2cw+0x4bdb95)
+        #1 0x4df937  (/usr/bin/ebook2cw+0x4df937)
+	    #2 0x4dd4ee  (/usr/bin/ebook2cw+0x4dd4ee)
+	        #3 0x7ff4f768db44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 1058 byte(s) in 1 object(s) allocated from:
+    #0 0x4bdb95  (/usr/bin/ebook2cw+0x4bdb95)
+        #1 0x4df97d  (/usr/bin/ebook2cw+0x4df97d)
+	    #2 0x4dd4ee  (/usr/bin/ebook2cw+0x4dd4ee)
+	        #3 0x7ff4f768db44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 4232 byte(s) leaked in 2 allocation(s).
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+17
+ebook2cwgui
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching ebook2cwgui
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package ebook2cwgui.
+(Reading database ... 168445 files and directories currently installed.)
+Preparing to unpack .../ebook2cwgui_0.1.2-2_amd64.deb ...
+Unpacking ebook2cwgui (0.1.2-2) ...
+Setting up ebook2cwgui (0.1.2-2) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for desktop-file-utils (0.22-1) ...
+Processing triggers for mime-support (3.58) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+[TRY RUNNING 1:]
+
+=================================================================
+==6505==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f9b91498739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4ccee5  (/usr/bin/ebook2cwgui+0x4ccee5)
+        #1 0x7f9b9149868a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f9b9148740f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 1641 byte(s) in 134 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f9b953929d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 1632 byte(s) in 51 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f9b91498df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 928 byte(s) in 29 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f9b91498324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 64 byte(s) in 2 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f9b914981a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f9b91492e3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 10905 byte(s) leaked in 322 allocation(s).
+[TRY RUNNING 2:]
+
+=================================================================
+==6509==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f01b15eb739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4ccee5  (/usr/bin/ebook2cwgui+0x4ccee5)
+        #1 0x7f01b15eb68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f01b15da40f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 1641 byte(s) in 134 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f01b54e59d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 1632 byte(s) in 51 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f01b15ebdf8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 928 byte(s) in 29 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f01b15eb324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 64 byte(s) in 2 object(s) allocated from:
+    #0 0x4ccd1b  (/usr/bin/ebook2cwgui+0x4ccd1b)
+        #1 0x7f01b15eb1a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x4ccba2  (/usr/bin/ebook2cwgui+0x4ccba2)
+        #1 0x7f01b15e5e3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 10905 byte(s) leaked in 322 allocation(s).
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+44
+efte
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-========================================
+ii  efte           1.1-2        amd64        Advanced lightweight configurable editor
+already installed
+[TRY RUNNING 3:]
+
+=================================================================
+==8526==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 52958 byte(s) in 6966 object(s) allocated from:
+    #0 0x4d8572  (/usr/bin/efte+0x4d8572)
+        #1 0x52332b  (/usr/bin/efte+0x52332b)
+	    #2 0x5265ac  (/usr/bin/efte+0x5265ac)
+	        #3 0x51e7c1  (/usr/bin/efte+0x51e7c1)
+		    #4 0x51a07d  (/usr/bin/efte+0x51a07d)
+		        #5 0x5834eb  (/usr/bin/efte+0x5834eb)
+			    #6 0x7f09618b8b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+46
+eiciel
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching eiciel
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package eiciel.
+(Reading database ... 169508 files and directories currently installed.)
+Preparing to unpack .../eiciel_0.9.9-1_amd64.deb ...
+Unpacking eiciel (0.9.9-1) ...
+dpkg: dependency problems prevent configuration of eiciel:
+ eiciel depends on libglibmm-2.4-1c2a (>= 2.44.0); however:
+   Version of libglibmm-2.4-1c2a:amd64 on system is 2.42.0-1.
+    eiciel depends on libgtkmm-3.0-1 (>= 3.16.0); however:
+      Version of libgtkmm-3.0-1:amd64 on system is 3.14.0-1.
+       eiciel depends on libpangomm-1.4-1 (>= 2.36.0); however:
+         Version of libpangomm-1.4-1:amd64 on system is 2.34.0-1.1.
+
+dpkg: error processing package eiciel (--install):
+ dependency problems - leaving unconfigured
+ Processing triggers for hicolor-icon-theme (0.13-1) ...
+ Processing triggers for gnome-menus (3.13.3-6) ...
+ Processing triggers for mime-support (3.58) ...
+ Errors were encountered while processing:
+  eiciel
+  =================================================================
+  ==8585==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16384 byte(s) in 1 object(s) allocated from:
+    #0 0x4d5e72  (/usr/bin/eiciel+0x4d5e72)
+        #1 0x7f03b0999799  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f799)
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x4d61b5  (/usr/bin/eiciel+0x4d61b5)
+        #1 0x7f03ad45668a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4d5e72  (/usr/bin/eiciel+0x4d5e72)
+        #1 0x7f03ad456739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Indirect leak of 6016 byte(s) in 188 object(s) allocated from:
+    #0 0x4d5e72  (/usr/bin/eiciel+0x4d5e72)
+        #1 0x7f03ad44540f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 3063 byte(s) in 250 object(s) allocated from:
+    #0 0x4d5e72  (/usr/bin/eiciel+0x4d5e72)
+        #1 0x7f03af5ce9d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 2688 byte(s) in 84 object(s) allocated from:
+    #0 0x4d5feb  (/usr/bin/eiciel+0x4d5feb)
+        #1 0x7f03ad456df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 1856 byte(s) in 58 object(s) allocated from:
+    #0 0x4d5feb  (/usr/bin/eiciel+0x4d5feb)
+        #1 0x7f03ad456324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 128 byte(s) in 4 object(s) allocated from:
+    #0 0x4d5feb  (/usr/bin/eiciel+0x4d5feb)
+        #1 0x7f03ad4561a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 96 byte(s) in 2 object(s) allocated from:
+    #0 0x4d5e72  (/usr/bin/eiciel+0x4d5e72)
+        #1 0x7f03ad450e3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 35095 byte(s) leaked in 600 allocation(s).
+root@localhost:/home/mohit#
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+94
+epic5
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  epic5                           1.1.10-1             amd64                epic irc client, version 5
+already installed
+[TRY RUNNING 3:]
+EPIC Version 5 -- Desquamation
+EPIC Software Labs (2006)
+Version (EPIC5-1.1.10), Commit Id (1781) -- Date (20140413)
+Compiled by user@ip-172-31-1-221 on Wed Jun 24 2015 at 04:21:11 UTC
+Process [11274]
+*** I can't find your mailbox.
+File not found: tc
+*** Performing DNS lookup for [irc.debian.org] (server 0)
+*** INFO -- unix_read: EOF for fd 0
+*** INFO -- new_io_event: fd 0 must be closed
+*** INFO -- dgets: fd [0] must be closed
+*** IRCII exiting on EOF from stdin
+
+=================================================================
+==11274==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 784 byte(s) in 1 object(s) allocated from:
+    #0 0x4d1e62  (/usr/bin/epic5+0x4d1e62)
+        #1 0x5d31ec  (/usr/bin/epic5+0x5d31ec)
+	    #2 0x4f2a49  (/usr/bin/epic5+0x4f2a49)
+	        #3 0x5ac96e  (/usr/bin/epic5+0x5ac96e)
+		    #4 0x54348f  (/usr/bin/epic5+0x54348f)
+		        #5 0x543d47  (/usr/bin/epic5+0x543d47)
+			    #6 0x543ad9  (/usr/bin/epic5+0x543ad9)
+			        #7 0x53f79e  (/usr/bin/epic5+0x53f79e)
+				    #8 0x53de18  (/usr/bin/epic5+0x53de18)
+				        #9 0x54348f  (/usr/bin/epic5+0x54348f)
+					    #10 0x543d47  (/usr/bin/epic5+0x543d47)
+					        #11 0x5b4e06  (/usr/bin/epic5+0x5b4e06)
+						    #12 0x54348f  (/usr/bin/epic5+0x54348f)
+						        #13 0x53ebe1  (/usr/bin/epic5+0x53ebe1)
+							    #14 0x53de18  (/usr/bin/epic5+0x53de18)
+							        #15 0x54348f  (/usr/bin/epic5+0x54348f)
+								    #16 0x543d47  (/usr/bin/epic5+0x543d47)
+								        #17 0x543ad9  (/usr/bin/epic5+0x543ad9)
+									    #18 0x53f79e  (/usr/bin/epic5+0x53f79e)
+									        #19 0x53de18  (/usr/bin/epic5+0x53de18)
+										    #20 0x54348f  (/usr/bin/epic5+0x54348f)
+										        #21 0x543d47  (/usr/bin/epic5+0x543d47)
+											    #22 0x5b4e06  (/usr/bin/epic5+0x5b4e06)
+											        #23 0x54348f  (/usr/bin/epic5+0x54348f)
+												    #24 0x53ebe1  (/usr/bin/epic5+0x53ebe1)
+												        #25 0x53de18  (/usr/bin/epic5+0x53de18)
+													    #26 0x5d09ac  (/usr/bin/epic5+0x5d09ac)
+													        #27 0x7facccbaeb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 128 byte(s) in 1 object(s) allocated from:
+    #0 0x4d1e62  (/usr/bin/epic5+0x4d1e62)
+        #1 0x7facccbaf70b  (/lib/x86_64-linux-gnu/libc.so.6+0x2270b)
+	    #2 0x7facccbaf27a  (/lib/x86_64-linux-gnu/libc.so.6+0x2227a)
+	        #3 0x63e312  (/usr/bin/epic5+0x63e312)
+		    #4 0x63dc0b  (/usr/bin/epic5+0x63dc0b)
+		        #5 0x5d0635  (/usr/bin/epic5+0x5d0635)
+			    #6 0x7facccbaeb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 128 byte(s) in 1 object(s) allocated from:
+    #0 0x4d1e62  (/usr/bin/epic5+0x4d1e62)
+        #1 0x7facccbaf70b  (/lib/x86_64-linux-gnu/libc.so.6+0x2270b)
+	    #2 0x7facccbaf27a  (/lib/x86_64-linux-gnu/libc.so.6+0x2227a)
+	        #3 0x63e312  (/usr/bin/epic5+0x63e312)
+		    #4 0x63dc4c  (/usr/bin/epic5+0x63dc4c)
+		        #5 0x5d0635  (/usr/bin/epic5+0x5d0635)
+			    #6 0x7facccbaeb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+159
+euler
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching euler
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package euler.
+(Reading database ... 182737 files and directories currently installed.)
+Preparing to unpack .../euler_1.61.0-10_amd64.deb ...
+Unpacking euler (1.61.0-10) ...
+Setting up euler (1.61.0-10) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+[TRY RUNNING 1:]
+
+=================================================================
+==13970==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c8d42  (/usr/bin/euler+0x4c8d42)
+        #1 0x7f547e4ef739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4c9085  (/usr/bin/euler+0x4c9085)
+        #1 0x7f547e4ef68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 55 byte(s) in 1 object(s) allocated from:
+    #0 0x4c9085  (/usr/bin/euler+0x4c9085)
+        #1 0x7f5480037f0c  (/lib/x86_64-linux-gnu/libc.so.6+0xf5f0c)
+
+
+v………………………………………………………………………
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+8
+vagalume
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching vagalume
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package vagalume.
+(Reading database ... 184002 files and directories currently installed.)
+Preparing to unpack .../vagalume_0.8.6-1_amd64.deb ...
+Unpacking vagalume (0.8.6-1) ...
+Setting up vagalume (0.8.6-1) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+=================================================================
+==15718==ERROR: AddressSanitizer: SEGV on unknown address 0x00000000005c (pc 0x7fdff115a096 bp 0x7ffdfcaea240 sp 0x7ffdfcaea230 T0)
+    #0 0x7fdff115a095  (/usr/bin/vagalume+0x114095)
+        #1 0x7fdff1176658  (/usr/bin/vagalume+0x130658)
+	    #2 0x7fdff0113fc8  (/usr/lib/x86_64-linux-gnu/libgtk-3.so.0+0x1edfc8)
+	        #3 0x7fdfedf5d503  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x10503)
+		    #4 0x7fdfedf76a4f  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x29a4f)
+		        #5 0x7fdfedf778fe  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x2a8fe)
+			    #6 0x7fdff0244aa3  (/usr/lib/x86_64-linux-gnu/libgtk-3.so.0+0x31eaa3)
+			        #7 0x7fdff0113511  (/usr/lib/x86_64-linux-gnu/libgtk-3.so.0+0x1ed511)
+				    #8 0x7fdfefcb9d41  (/usr/lib/x86_64-linux-gnu/libgdk-3.so.0+0x4fd41)
+				        #9 0x7fdfedc87c3c  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x49c3c)
+					    #10 0x7fdfedc87f1f  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x49f1f)
+					        #11 0x7fdfedc88241  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4a241)
+						    #12 0x7fdff01127a4  (/usr/lib/x86_64-linux-gnu/libgtk-3.so.0+0x1ec7a4)
+						        #13 0x7fdff1159e86  (/usr/bin/vagalume+0x113e86)
+							    #14 0x7fdff1162d77  (/usr/bin/vagalume+0x11cd77)
+							        #15 0x7fdfecb52b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+								    #16 0x7fdff10ad786  (/usr/bin/vagalume+0x67786)
+
+AddressSanitizer can not provide additi
+
+-----------------------------------------------------------------------------------------------------
+70
+viewnior
+=================================================================
+==20021==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c75f2  (/usr/bin/viewnior+0x4c75f2)
+        #1 0x7f5481a45739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4c7935  (/usr/bin/viewnior+0x4c7935)
+        #1 0x7f5481a4568a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 512 byte(s) in 1 object(s) allocated from:
+    #0 0x4c7935  (/usr/bin/viewnior+0x4c7935)
+        #1 0x7f5480cc985d  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f85d)
+
+Direct leak of 88 byte(s) in 1 object(s) allocated from:
+    #0 0x4c776b  (/usr/bin/viewnior+0x4c776b)
+        #1 0x7f5480cc97f1  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f7f1)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4c75f2  (/usr/bin/viewnior+0x4c75f2)
+        #1 0x7f5481a3440f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 1639 byte(s) in 134 object(s) allocated from:
+    #0 0x4c75f2  (/usr/bin/viewnior+0x4c75f2)
+        #1 0x7f547f0559d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 1632 byte(s) in 51 object(s) allocated from:
+    #0 0x4c776b  (/usr/bin/viewnior+0x4c776b)
+        #1 0x7f5481a45df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 928 byte(s) in 29 object(s) allocated from:
+    #0 0x4c776b  (/usr/bin/viewnior+0x4c776b)
+        #1 0x7f5481a45324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 192 byte(s) in 1 object(s) allocated from:
+    #0 0x4c7935  (/usr/bin/viewnior+0x4c7935)
+        #1 0x7f5480cc985d  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f85d)
+
+Indirect leak of 112 byte(s) in 1 object(s) allocated from:
+    #0 0x4c776b  (/usr/bin/viewnior+0x4c776b)
+        #1 0x7f5480cc97f1  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f7f1)
+
+Indirect leak of 64 byte(s) in 2 object(s) allocated from:
+    #0 0x4c776b  (/usr/bin/viewnior+0x4c776b)
+        #1 0x7f5481a451a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x4c75f2  (/usr/bin/viewnior+0x4c75f2)
+        #1 0x7f5481a3fe3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+Indirect leak of 23 byte(s) in 1 object(s) allocated from:
+    #0 0x4c75f2  (/usr/bin/viewnior+0x4c75f2)
+        #1 0x7f5480cc9799  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f799)
+
+SUMMARY: AddressSanitizer: 11830 byte(s) leaked in 327 allocation(s).
+root@localhost:/home/mohit#
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+72
+vigor
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+iU  vigor                           0.016-24             amd64                nvi with the evil paperclip
+already installed
+[TRY RUNNING 3:]
+ex/vi: Vi's standard input and output must be a terminal
+
+=================================================================
+==20029==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 10 object(s) allocated from:
+    #0 0x4c2d82  (/usr/bin/vigor+0x4c2d82)
+        #1 0x7fed3bdbe739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 2304 byte(s) in 3 object(s) allocated from:
+    #0 0x4c30c5  (/usr/bin/vigor+0x4c30c5)
+        #1 0x7fed3bdbe68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x4c2efb  (/usr/bin/vigor+0x4c2efb)
+        #1 0x532ef0  (/usr/bin/vigor+0x532ef0)
+	    #2 0x546582  (/usr/bin/vigor+0x546582)
+	        #3 0x4e4a48  (/usr/bin/vigor+0x4e4a48)
+		    #4 0x7fed3c216b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+72
+vigor
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+iU  vigor                           0.016-24             amd64                nvi with the evil paperclip
+already installed
+[TRY RUNNING 3:]
+ex/vi: Vi's standard input and output must be a terminal
+
+=================================================================
+==20029==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 10 object(s) allocated from:
+    #0 0x4c2d82  (/usr/bin/vigor+0x4c2d82)
+        #1 0x7fed3bdbe739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 2304 byte(s) in 3 object(s) allocated from:
+    #0 0x4c30c5  (/usr/bin/vigor+0x4c30c5)
+        #1 0x7fed3bdbe68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x4c2efb  (/usr/bin/vigor+0x4c2efb)
+        #1 0x532ef0  (/usr/bin/vigor+0x532ef0)
+	    #2 0x546582  (/usr/bin/vigor+0x546582)
+	        #3 0x4e4a48  (/usr/bin/vigor+0x4e4a48)
+		    #4 0x7fed3c216b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+		    -------------------------------------------------------------------
+		    [PACKAGE INFO:]
+		    81
+		    virt-what
+		    [CHECK IF ALREADY INSTALLED:]
+		    Desired=Unknown/Install/Remove/Purge/Hold
+		    | Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+		    |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+		    ||/ Name           Version      Architecture Description
+		    +++-==============-============-============-=============================================
+		    ii  virt-what      1.14-1       amd64        detect if we are running in a virtual machine
+		    already installed
+		    [TRY RUNNING 3:]
+		    ASAN:SIGSEGV
+		    =================================================================
+		    ==20131==ERROR: AddressSanitizer: SEGV on unknown address 0x0000f28c6f60 (pc 0x0000004db333 bp 0x7ffef28c6fd0 sp 0x7ffef28c6f00 T0)
+		        #0 0x4db332  (/usr/lib/virt-what/virt-what-cpuid-helper+0x4db332)
+			    #1 0x7f024aa95b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+			        #2 0x434eb6  (/usr/lib/virt-what/virt-what-cpuid-helper+0x434eb6)
+
+AddressSanitizer can not provide additional info.
+==20131==ABORTING
+[TRY RUNNING 4:]
+install_check.sh: line 32: /usr/bin/virt-what: No such file or directo-------------------------------------------------------------------
+[PACKAGE INFO:]
+92
+vlock
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+ii  vlock          2.2.2-5      amd64        Virtual Console locking program
+already installed
+[TRY RUNNING 3:]
+vlock: stdin is not a terminal
+
+=================================================================
+==20294==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x4bcea2  (/usr/sbin/vlock-main+0x4bcea2)
+        #1 0x4e46ef  (/usr/sbin/vlock-main+0x4e46ef)
+	    #2 0x4df5dc  (/usr/sbin/vlock-main+0x4df5dc)
+	        #3 0x4dc516  (/usr/sbin/vlock-main+0x4dc516)
+		    #4 0x7f61adee4b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 16 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 4:]
+vlock: stdin is not a terminal
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+122
+vtprint
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching vtprint
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package vtprint.
+(Reading database ... 187989 files and directories currently installed.)
+Preparing to unpack .../vtprint_2.0.2-13_amd64.deb ...
+Unpacking vtprint (2.0.2-13) ...
+Setting up vtprint (2.0.2-13) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==21274==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc882  (/usr/bin/vtprint+0x4bc882)
+        #1 0x4de01c  (/usr/bin/vtprint+0x4de01c)
+	    #2 0x4dcf15  (/usr/bin/vtprint+0x4dcf15)
+	        #3 0x7f15196cdb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 1 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc882  (/usr/bin/vtprint+0x4bc882)
+        #1 0x4dced2  (/usr/bin/vtprint+0x4dced2)
+	    #2 0x7f15196cdb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+
+ry
+-------------------------------------------------------------------a
+13
+abootimg
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching abootimg
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package abootimg.
+(Reading database ... 188969 files and directories currently installed.)
+Preparing to unpack .../abootimg_0.6-1_amd64.deb ...
+Unpacking abootimg (0.6-1) ...
+Setting up abootimg (0.6-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+E: Unable to correct dependencies
+[TRY RUNNING 1:]
+
+=================================================================
+==24182==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 688 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc86b  (/usr/bin/abootimg+0x4bc86b)
+        #1 0x4e0460  (/usr/bin/abootimg+0x4e0460)
+	    #2 0x7fcd3bb02b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 688 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 2:]
+
+=================================================================
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+24
+acorn-fdisk
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  acorn-fdisk                     3.0.6-8              amd64                partition editor for Acorn/RISC OS machines
+already installed
+[TRY RUNNING 3:]
+
+Using /dev/sda as default device
+
+Device /dev/sda is partitioned using PC/BIOS scheme
+
+
+=================================================================
+==26700==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 240 byte(s) in 3 object(s) allocated from:
+    #0 0x4bcc72  (/sbin/acorn-fdisk+0x4bcc72)
+        #1 0x4ee01b  (/sbin/acorn-fdisk+0x4ee01b)
+	    #2 0x4e71d8  (/sbin/acorn-fdisk+0x4e71d8)
+	        #3 0x4e0fd6  (/sbin/acorn-fdisk+0x4e0fd6)
+		    #4 0x4dca21  (/sbin/acorn-fdisk+0x4dca21)
+		        #5 0x4dc6d0  (/sbin/acorn-fdisk+0x4dc6d0)
+			    #6 0x7f69c9c8fb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 80 byte(s) in 1 object(s) allocated from:
+    #0 0x4bcc72  (/sbin/acorn-fdisk+0x4bcc72)
+        #1 0x4ee01b  (/sbin/acorn-fdisk+0x4ee01b)
+	    #2 0x4e6d37  (/sbin/acorn-fdisk+0x4e6d37)
+	        #3 0x4e0fd6  (/sbin/acorn-fdisk+0x4e0fd6)
+		    #4 0x4dca21  (/sbin/acorn-fdisk+0x4dca21)
+		        #5 0x4dc6d0  (/sbin/acorn-fdisk+0x4dc6d0)
+			    #6 0x7f69c9c8fb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 320 byte(s) leaked in 4 allocation(s).
+[TRY RUNNING 4:]
+install_check.sh: line 32: /usr/bin/acorn-fdisk: No such file or directory
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+52
+afuse
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=============================================================
+ii  afuse          0.4.1-1      amd64        automounting file system implemented in user-space using FUSE
+already installed
+[TRY RUNNING 3:]
+=================================================================
+==28321==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60300000eff1 at pc 0x0000004a6756 bp 0x7fff3bd84030 sp 0x7fff3bd837e0
+WRITE of size 18 at 0x60300000eff1 thread T0
+    #0 0x4a6755  (/usr/bin/afuse+0x4a6755)
+        #1 0x4df73e  (/usr/bin/afuse+0x4df73e)
+	    #2 0x7f117ac1eb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+	        #3 0x4361e6  (/usr/bin/afuse+0x4361e6)
+
+0x60300000eff1 is located 0 bytes to the right of 17-byte region [0x60300000efe0,0x60300000eff1)
+allocated by thread T0 here:
+    #0 0x4bd1b2  (/usr/bin/afuse+0x4bd1b2)
+        #1 0x4e68ed  (/usr/bin/afuse+0x4e68ed)
+	    #2 0x4df727  (/usr/bin/afuse+0x4df727)
+	        #3 0x7f117ac1eb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Shadow bytes around the buggy address:
+  0x0c067fff9da0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+    0x0c067fff9db0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+70
+ale
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching ale
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package ale.
+(Reading database ... 200177 files and directories currently installed.)
+Preparing to unpack ale/ale_0.9.0.3-2_amd64.deb ...
+Unpacking ale (0.9.0.3-2) ...
+Setting up ale (0.9.0.3-2) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+=================================================================
+==29196==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 35 byte(s) in 4 object(s) allocated from:
+    #0 0x7f0a6fc73ce2  (/usr/bin/ale-bin+0x114ce2)
+        #1 0x7f0a6e7c9a29  (/lib/x86_64-linux-gnu/libc.so.6+0x81a29)
+
+Direct leak of 32 byte(s) in 1 object(s) allocated from:
+    #0 0x7f0a6fc93162  (/usr/bin/ale-bin+0x134162)
+        #1 0x7f0a6fc9af59  (/usr/bin/ale-bin+0x13bf59)
+	    #2 0x7f0a6fc93f76  (/usr/bin/ale-bin+0x134f76)
+	        #3 0x7f0a6e769b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 192 byte(s) in 4 object(s) allocated from:
+    #0 0x7f0a6fc93162  (/usr/bin/ale-bin+0x134162)
+        #1 0x7f0a6fdd4304  (/usr/bin/ale-bin+0x275304)
+	    #2 0x7f0a6fdd5b9f  (/usr/bin/ale-bin+0x276b9f)
+	        #3 0x7f0a6fcb1f2e  (/usr/bin/ale-bin+0x152f2e)
+
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+87
+alt-key===================================================================29927==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c5762  (/usr/bin/alt-key+0x4c5762)
+            #1 0x7fc547d39739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1248 byte(s) in 13 object(s) allocated from:
+    #0 0x4e4be2  (/usr/bin/alt-key+0x4e4be2)
+            #1 0x7fc5492bf540  (/usr/lib/x86_64-linux-gnu/libQtCore.so.4+0x171540)
+
+Direct leak of 408 byte(s) in 1 object(s) allocated from:
+    #0 0x4c58db  (/usr/bin/alt-key+0x4c58db)
+            #1 0x7fc546399e8b  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x69e8b)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+123
+antennavis
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching antennavis
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package antennavis.
+(Reading database ... 203303 files and directories currently installed.)
+Preparing to unpack .../antennavis_0.3.1-3_amd64.deb ...
+Unpacking antennavis (0.3.1-3) ...
+Setting up antennavis (0.3.1-3) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==31848==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c0592  (/usr/bin/TkAnt+0x4c0592)
+        #1 0x7f0542e20739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 640 byte(s) in 1 object(s) allocated from:
+    #0 0x4c0592  (/usr/bin/TkAnt+0x4c0592)
+        #1 0x7f05441809f4  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x409f4)
+	    #2 0x96  (<unknown module>)
+	        #3 0x7f05454bb4ef  (<unknown module>)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+127
+anypaper
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching anypaper
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package anypaper.
+(Reading database ... 203477 files and directories currently installed.)
+Preparing to unpack .../anypaper_2.4-2_amd64.deb ...
+Unpacking anypaper (2.4-2) ...
+Setting up anypaper (2.4-2) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==31983==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c08b2  (/usr/bin/anypaper+0x4c08b2)
+        #1 0x7fbd41e83739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated f
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+191
+arpalert
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching arpalert
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package arpalert.
+(Reading database ... 207434 files and directories currently installed.)
+Preparing to unpack .../arpalert_2.0.11-7.1_amd64.deb ...
+Unpacking arpalert (2.0.11-7.1) ...
+Setting up arpalert (2.0.11-7.1) ...
+Starting Ethernet station monitor daemon: (creating /var/lib/arpalert/arpalert.leases) (chown arpalert /var/lib/arpalert/arpalert.leases) ===========\
+======================================================
+==9676==ERROR: AddressSanitizer: stack-buffer-underflow on address 0x7ffffe3f575f at pc 0x0000004e0101 bp 0x7ffffe3f56e0 sp 0x7ffffe3f56d8
+READ of size 1 at 0x7ffffe3f575f thread T0
+    #0 0x4e0100  (/usr/sbin/arpalert+0x4e0100)
+        #1 0x4deb9f  (/usr/sbin/arpalert+0x4deb9f)
+	    #2 0x4dd5c9  (/usr/sbin/arpalert+0x4dd5c9)
+	        #3 0x7f7ded96fb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+		    #4 0x437146  (/usr/sbin/arpalert+0x437146)
+
+Address 0x7ffffe3f575f is located in stack of thread T0 at offset 31 in frame
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+213
+asunder
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching asunder
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package asunder.
+(Reading database ... 207887 files and directories currently installed.)
+Preparing to unpack .../asunder_2.5-3_amd64.deb ...
+Unpacking asunder (2.5-3) ...
+dpkg: dependency problems prevent configuration of asunder:
+ asunder depends on cdparanoia; however:
+   Package cdparanoia is not installed.
+    asunder depends on vorbis-tools; however:
+      Package vorbis-tools is not installed.
+
+
+=================================================================
+==11068==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c3f22  (/usr/bin/asunder+0x4c3f22)
+        #1 0x7fb754368739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4c4265  (/usr/bin/asunder+0x4c4265)
+        #1 0x7fb75436868a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Indirect leak of 3008 byte(s) in 94 object(s) allocated from:
+    #0 0x4c3f22  (/usr/bin/asunder+0x4c3f22)
+        #1 0x7fb75435740f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+------------------------------------------------------------------
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+249
+avra
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching avra
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package avra.
+(Reading database ... 210449 files and directories currently installed.)
+Preparing to unpack avra/avra_1.3.0-2_amd64.deb ...
+Unpacking avra (1.3.0-2) ...
+Setting up avra (1.3.0-2) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+===============================================================
+==12981==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 384 byte(s) in 1 object(s) allocated from:
+    #0 0x4bded2  (/usr/bin/avra+0x4bded2)
+        #1 0x4e1c61  (/usr/bin/avra+0x4e1c61)
+	    #2 0x4dd307  (/usr/bin/avra+0x4dd307)
+	        #3 0x7fc535bceb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 384 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 2:]
+
+=================================================================
+==12983==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 384 byte(s) in 1 object(s) allocated from:
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+259
+awffull
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching awffull
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package awffull.
+(Reading database ... 211082 files and directories currently installed.)
+Preparing to unpack .../awffull_3.10.2-4_amd64.deb ...
+Unpacking awffull (3.10.2-4) ...
+Setting up awffull (3.10.2-4) ...
+/var/www/awffull created
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==13237==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4bf3f2  (/usr/bin/awffull+0x4bf3f2)
+        #1 0x7f10f4e22739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 128 byte(s) in 1 object(s) allocated from:
+    #0 0x4bf3f2  (/usr/bin/awffull+0x4bf3f2)
+        #1 0x7f10f4e15e43  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xfe43)
+
+Indirect leak of 576 byte(s) in 18 object(s) allocated from:
+    #0 0x4bf56b  (/usr/bin/awffull+0x4bf56b)
+        #1 0x7f10f4e22df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.s
+	-------------------------------------------------------------------
+	[PACKAGE INFO:]
+	76
+	bindfs
+	[CHECK IF ALREADY INSTALLED:]
+	dpkg-query: no packages found matching bindfs
+	[INSTALLING NEW PACKAGE:]
+	Selecting previously unselected package bindfs.
+	(Reading database ... 216025 files and directories currently installed.)
+	Preparing to unpack .../bindfs_1.12.3-1_amd64.deb ...
+	Unpacking bindfs (1.12.3-1) ...
+	Setting up bindfs (1.12.3-1) ...
+	[INSTALL DEPENDENCIES:]
+	Reading package lists...
+	Building dependency tree...
+	Reading state information...
+	Correcting dependencies... failed.
+
+[TRY RUNNING 1:]
+
+=================================================================
+==25306==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x4bd5c5  (/usr/bin/bindfs+0x4bd5c5)
+        #1 0x7fafca854fff  (/lib/x86_64-linux-gnu/libfuse.so.2+0x18fff)
+
+Indirect leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x4bd282  (/usr/bin/bindfs+0x4bd282)
+        #1 0x7fafc99d49d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+SUMMARY: AddressSanitizer: 32 byte(s) leaked in 2 allocation(s).
+[TRY RUNNING 2:]
+
+=================================================================
+==25308==ERROR: LeakSanitizer: detected memory leaks
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+82
+binkd
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching binkd
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package binkd.
+(Reading database ... 216169 files and directories currently installed.)
+Preparing to unpack binkd/binkd_1.0.4-1_amd64.deb ...
+Unpacking binkd (1.0.4-1) ...
+Setting up binkd (1.0.4-1) ...
+Warning: The home dir /var/spool/ftn you specified already exists.
+Adding system user `ftn' (UID 64000) ...
+Adding new group `ftn' (GID 64000) ...
+Adding new user `ftn' (UID 64000) with group `ftn' ...
+The home directory `/var/spool/ftn' already exists.  Not copying from `/etc/skel'.
+Starting FTN mailer: binkd.
+Processing triggers for systemd (215-17) ...
+[INSTALL DEPENDENCIES:]
+
+=================================================================
+==25520==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x7f9e37d33ad2  (/usr/sbin/binkd+0xdead2)
+        #1 0x7f9e37d9710e  (/usr/sbin/binkd+0x14210e)
+	    #2 0x7f9e37d647f1  (/usr/sbin/binkd+0x10f7f1)
+	        #3 0x7f9e37d56d86  (/usr/sbin/binkd+0x101d86)
+		    #4 0x7f9e36953b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x7f9e37d33ad2  (/usr/sbin/binkd+0xdead2)
+        #1 0x7f9e37d971bf  (/usr/sbin/binkd+0x1421bf)
+	    #2 0x7f9e37d64827  (/usr/sbin/binkd+0x10f827)
+	        #3 0x7f9e37d56d86  (/usr/sbin/binkd+0x101d86)
+		    #4 0x7f9e36953b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 32 byte(s) leaked in 2 allocation(s).
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+84
+binpac
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching binpac
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package binpac.
+(Reading database ... 216260 files and directories currently installed.)
+Preparing to unpack binpac/binpac_0.44-1_amd64.deb ...
+Unpacking binpac (0.44-1) ...
+Setting up binpac (0.44-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+[TRY RUNNING 1:]
+Error in opening -: No such file or directory
+
+=================================================================
+==25733==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2592 byte(s) in 9 object(s) allocated from:
+    #0 0x4f0722  (/usr/bin/binpac+0x4f0722)
+        #1 0x51419b  (/usr/bin/binpac+0x51419b)
+	    #2 0x56d9f8  (/usr/bin/binpac+0x56d9f8)
+	        #3 0x57de0a  (/usr/bin/binpac+0x57de0a)
+		    #4 0x7f5315a8cb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 320 byte(s) in 1 object(s) allocated from:
+    #0 0x4f0722  (/usr/bin/binpac+0x4f0722)
+        #1 0x5605dc  (/usr/bin/binpac+0x5605dc)
+	    #2 0x57de0a  (/usr/bin/binpac+0x57de0a)
+	        #3 0x7f5315a8cb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 297 byte(s) in 11 object(s) allocated from:
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+97
+bitmeter
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bitmeter
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package bitmeter.
+(Reading database ... 216691 files and directories currently installed.)
+Preparing to unpack .../bitmeter_1.2-3.1_amd64.deb ...
+Unpacking bitmeter (1.2-3.1) ...
+dpkg: dependency problems prevent configuration of bitmeter:
+ bitmeter depends on jackd (>= 0.50.0); however:
+   Package jackd is not installed.
+
+dpkg: error processing package bitmeter (--install):
+ dependency problems - leaving unconfigured
+ =================================================================
+ ==26224==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4be172  (/usr/bin/bitmeter+0x4be172)
+        #1 0x7fe0aef51739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4be4b5  (/usr/bin/bitmeter+0x4be4b5)
+        #1 0x7fe0aef5168a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) …
+
+Errors were encountered while processing:
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+121
+bluefish
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bluefish
+[INSTALLING NEW PACKAGE:]
+
+=================================================================
+==27550==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16384 byte(s) in 1 object(s) allocated from:
+    #0 0x4deb62  (/usr/bin/bluefish+0x4deb62)
+        #1 0x7fd1f069d799  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f799)
+
+Direct leak of 5120 byte(s) in 8 object(s) allocated from:
+    #0 0x4deea5  (/usr/bin/bluefish+0x4deea5)
+        #1 0x7fd1edfbc68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+125
+bmake
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bmake
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package bmake.
+(Reading database ... 218090 files and directories currently installed.)
+Preparing to unpack .../bmake_20140620-3_amd64.deb ...
+Unpacking bmake (20140620-3) ...
+Setting up bmake (20140620-3) ...
+
+[TRY RUNNING 1:]
+=================================================================
+==27661==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60300000b005 at pc 0x0000004a880e bp 0x7ffc6b5d9bb0 sp 0x7ffc6b5d9368
+READ of size 22 at 0x60300000b005 thread T0
+    #0 0x4a880d  (/usr/bin/bmake+0x4a880d)
+        #1 0x505e70  (/usr/bin/bmake+0x505e70)
+	    #2 0x50665d  (/usr/bin/bmake+0x50665d)
+	        #3 0x4fdf72  (/usr/bin/bmake+0x4fdf72)
+		    #4 0x52daac  (/usr/bin/bmake+0x52daac)
+		        #5 0x4fcbbe  (/usr/bin/bmake+0x4fcbbe)
+			    #6 0x7f5d1776cb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+			        #7 0x438d06  (/usr/bin/bmake+0x438d06)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+126
+bmf
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bmf
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package bmf.
+(Reading database ... 218127 files and directories currently installed.)
+Preparing to unpack bmf/bmf_0.9.4-9_amd64.deb ...
+Unpacking bmf (0.9.4-9) ...
+Setting up bmf (0.9.4-9) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+[TRY RUNNING 1:]
+
+=================================================================
+==27696==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 23 byte(s) in 1 object(s) allocated from:
+    #0 0x7fe861109042  (/usr/bin/bmf+0xc5042)
+        #1 0x7fe86112ac36  (/usr/bin/bmf+0xe6c36)
+	    #2 0x7fe8611289f9  (/usr/bin/bmf+0xe49f9)
+	        #3 0x7fe85fb98b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 23 byte(s) in 1 object(s) allocated from:
+    #0 0x7fe861109042  (/usr/bin/bmf+0xc5042)
+        #1 0x7fe86112ac36  (/usr/bin/bmf+0xe6c36)
+	    #2 0x7fe861128a24  (/usr/bin/bmf+0xe4a24)
+	        #3 0x7fe85fb98b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 46 byte(s) leaked in 2 allocation(s).
+[TRY RUNNING 2:]
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+130
+boats
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching boats
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package boats.
+(Reading database ... 218179 files and directories currently installed.)
+Preparing to unpack boats/boats_201307-1_amd64.deb ...
+Unpacking boats (201307-1) ...
+
+=================================================================
+==28339==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4d84d2  (/usr/bin/boats+0x4d84d2)
+        #1 0x7f9dddcc3739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1248 byte(s) in 13 object(s) allocated from:
+    #0 0x4f7952  (/usr/bin/boats+0x4f7952)
+        #1 0x7f9ddf249540  (/usr/lib/x86_64-linux-gnu/libQtCore.so.4+0x171540)
+
+Direct leak of 408 byte(s) in 1 object(s) allocated from:
+    #0 0x4d864b  (/usr/bin/boats+0x4d864b)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+131
+bochs
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bochs
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package bochs.
+(Reading database ... 218194 files and directories currently installed.)
+Preparing to unpack bochs/bochs_2.6-2_amd64.deb ...
+Unpacking bochs (2.6-2) ...
+Selecting previously unselected package bochs-sdl.
+Preparing to unpack .../bochs-sdl_2.6-2_amd64.deb ...
+Unpacking bochs-sdl (2.6-2) ...
+Selecting previously unselected package bochs-term.
+Preparing to unpack .../bochs-term_2.6-2_amd64.deb ...
+Unpacking bochs-term (2.6-2) ...
+Selecting previously unselected package bochs-wx.
+Preparing to unpack bochs/bochs-wx_2.6-2_amd64.deb ...
+
+[TRY RUNNING 1:]
+=================================================================
+==28418==ERROR: AddressSanitizer: global-buffer-overflow on address 0x000000c07080 at pc 0x00000078e49b bp 0x7ffd537f87d0 sp 0x7ffd537f87c8
+READ of size 8 at 0x000000c07080 thread T0
+    #0 0x78e49a  (/usr/bin/bochs-bin+0x78e49a)
+        #1 0x53a91e  (/usr/bin/bochs-bin+0x53a91e)
+	    #2 0x53285c  (/usr/bin/bochs-bin+0x53285c)
+	        #3 0x5323bb  (/usr/bin/bochs-bin+0x5323bb)
+		    #4 0x7ff8cfa31b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+		        #5 0x487119  (/usr/bin/bochs-bin+0x487119)
+
+0x000000c07080 is located 32 bytes to the left of global variable 'cpu_names' defined in 'config.cc:366:22' (0xc070a0) of size 136
+0x000000c07080 is located 0 bytes to the right of global variable 'bochs_start_names' defined in 'config.cc:309:22' (0xc07060) of size 32
+Shadow bytes around the buggy address:
+  0x000080178dc0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    0x000080178dd0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      0x000080178de0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        0x000080178df0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+147
+bossa
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching bossa
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package bossa.
+(Reading database ... 219344 files and directories currently installed.)
+Preparing to unpack .../bossa_1.3~20120408-5_amd64.deb ...
+Unpacking bossa (1.3~20120408-5) ...
+Selecting previously unselected package bossa-cli.
+Preparing to unpack .../bossa-cli_1.3~20120408-5_amd64.deb ...
+Unpacking bossa-cli (1.3~20120408-5) ...
+Setting up bossa (1.3~20120408-5) ...
+Setting up bossa-cli (1.3~20120408-5) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+[INSTALL DEPENDENCIES:]
+
+=================================================================
+==31873==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4d0b02  (/usr/bin/bossa+0x4d0b02)
+        #1 0x7efe68ab4739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x4d0e45  (/usr/bin/bossa+0x4d0e45)
+        #1 0x7efe68ab468a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+162
+brandy
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching brandy
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package brandy.
+(Reading database ... 220145 files and directories currently installed.)
+Preparing to unpack .../brandy_1.20.1-1_amd64.deb ...
+Unpacking brandy (1.20.1-1) ...
+Setting up brandy (1.20.1-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==563==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 32 byte(s) in 2 object(s) allocated from:
+    #0 0x4c1c75  (/usr/bin/brandy+0x4c1c75)
+        #1 0x7f7a6effbae0  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x55ae0)
+
+Direct leak of 14 byte(s) in 2 object(s) allocated from:
+    #0 0x4c1932  (/usr/bin/brandy+0x4c1932)
+        #1 0x7f7a6fab79d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Direct leak of 1 byte(s) in 1 object(s) allocated from:
+    #0 0x4c1932  (/usr/bin/brandy+0x4c1932)
+        #1 0x7f7a6f005808  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x5f808)
+
+Indirect leak of 320 byte(s) in 4 object(s) allocated from:
+    #0 0x4c1aab  (/usr/bin/brandy+0x4c1aab)
+        #1 0x7f7a6effbaae  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x55aae)
+
+Indirect leak of 32 byte(s) in 4 object(s) allocated from:
+    #0 0x4c1932  (/usr/bin/brandy+0x4c1932)
+        #1 0x7f7a6effc545  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x56545)
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+166
+brightd
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  brightd                         0.4.1-1              amd64                daemon which regulates brightness of LCDs dynamically
+already installed
+[TRY RUNNING 3:]
+^CXIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 8 requests (8 known processed) with 0 events remaining.
+      Received signal. Exiting...
+      ASAN:SIGSEGV
+      =================================================================
+      ==981==ERROR: AddressSanitizer: SEGV on unknown address 0x62a05c000002 (pc 0x7f3422ff6e30 bp 0x000000000002 sp 0x7ffe9a7f8768 T0)
+          #0 0x7f3422ff6e2f  (/usr/lib/x86_64-linux-gnu/libxcb.so.1+0x9e2f)
+	      #1 0x7f342431ae56  (/usr/lib/x86_64-linux-gnu/libX11.so.6+0x1fe56)
+	          #2 0x4dc397  (/usr/bin/brightd+0x4dc397)
+		      #3 0x4dcf1f  (/usr/bin/brightd+0x4dcf1f)
+		          #4 0x7f342324417f  (/lib/x86_64-linux-gnu/libc.so.6+0x3517f)
+			      #5 0x7f34232ee292  (/lib/x86_64-linux-gnu/libc.so.6+0xdf292)
+			          #6 0x4de2a4  (/usr/bin/brightd+0x4de2a4)
+				      #7 0x7f3423230b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+				          #8 0x435f66  (/usr/bin/brightd+0x435f66)
+
+…………………………………………………………………………………………………………………...c
+[PACKAGE INFO:]
+1
+c2050
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+un  c2050                           <none>               <none>               (no description available)
+already installed
+[TRY RUNNING 3:]
+=================================================================
+==3609==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x62800000b9bd at pc 0x0000004dd8b7 bp 0x7fffd884ea50 sp 0x7fffd884ea48
+READ of size 1 at 0x62800000b9bd thread T0
+    #0 0x4dd8b6  (/usr/bin/c2050+0x4dd8b6)
+        #1 0x4dda63  (/usr/bin/c2050+0x4dda63)
+	    #2 0x7f4fc4697b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+	        #3 0x4351c6  (/usr/bin/c2050+0x4351c6)
+
+0x62800000b9bd is located 5 bytes to the right of 14520-byte region [0x628000008100,0x62800000b9b8)
+allocated by thread T0 here:
+    #0 0x4bc192  (/usr/bin/c2050+0x4bc192)
+        #1 0x4dc22e  (/usr/bin/c2050+0x4dc22e)
+	    #2 0x4dda63  (/usr/bin/c2050+0x4dda63)
+	        #3 0x7f4fc4697b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Shadow bytes around the buggy address:
+  0x0c507fff96e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    0x0c507fff96f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      0x0c507fff9700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        0x0c507fff9710: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+	  0x0c507fff9720: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+	  =>0x0c507fff9730: 00 00 00 00 00 00 00[fa]fa fa fa fa fa fa fa fa
+	    0x0c507fff9740: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+	      0x0c507fff9750: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+	        0x0c507fff9760: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+		  0x0c507fff9770: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+		    0x0c507fff9780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+		    Shadow byte legend (one shadow byte represents 8 application bytes):
+		      Addressable:           00
+		        Partially addressable: 01 02 03 04 05 06 07
+			  Heap left redzone:       fa
+			    Heap right redzone:      fb
+			      Freed heap region:       fd
+			        Stack left redzone:      f1
+				  Stack mid redzone:       f2
+				    Stack right redzone:     f3
+				      Stack partial redzone:   f4
+				        Stack after return:      f5
+					  Stack use after scope:   f8
+					    Global redzone:          f9
+					      Global init order:       f6
+					        Poisoned by user:        f7
+						  Container overflow:      fc
+						    Array cookie:            ac
+						      Intra object redzone:    bb
+						        ASan internal:           fe
+							  Left alloca redzone:     ca
+							    Right alloca redzone:    cb
+							    ==3609==ABORTING
+							    [TRY RUNNING 4:]
+							    c2050: No pages printed!-------------------------------------------------------------------
+							    root@localhost:/home/mohit/soc15/cloud7/archive-asan-c/archive-asan/pool/main/c#
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+48
+care
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching care
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package care.
+(Reading database ... 225903 files and directories currently installed.)
+Preparing to unpack care/care_2.2.1-1_amd64.deb ...
+Unpacking care (2.2.1-1) ...
+Setting up care (2.2.1-1) ...
+
+=================================================================
+==5872==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 96 byte(s) in 1 object(s) allocated from:
+    #0 0x4c0052  (/usr/bin/care+0x4c0052)
+        #1 0x7f25bbffcc5d  (/usr/lib/x86_64-linux-gnu/libtalloc.so.2+0x7c5d)
+	    #2 0x7f25bae86b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 96 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 2:]
+fatal error: see `care --help`.
+
+=================================================================
+==5874==ERROR: LeakSanitizer: detected memory leaks
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+80
+clzip
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
+
+
+=================================================================
+==11372==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc802  (/usr/bin/lzip.clzip+0x4bc802)
+        #1 0x4e7148  (/usr/bin/lzip.clzip+0x4e7148)
+
+SUMMARY: AddressSanitizer: 8 byte(s) leaked in 1 allocation(s).
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+69
+cccd
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching cccd
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package cccd.
+(Reading database ... 230032 files and directories currently installed.)
+Preparing to unpack .../cccd_0.3beta4-7.1_amd64.deb ...
+Unpacking cccd (0.3beta4-7.1) ...
+Setting up cccd (0.3beta4-7.1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+[TRY RUNNING 1:]
+=================================================================
+==11591==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60200006e979 at pc 0x0000004a87e6 bp 0x7fffd80a9090 sp 0x7fffd80a8840
+WRITE of size 10 at 0x60200006e979 thread T0
+    #0 0x4a87e5  (/usr/bin/cccd+0x4a87e5)
+        #1 0x4e076d  (/usr/bin/cccd+0x4e076d)
+	    #2 0x7f6606701a3e  (/usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0+0x132a3e)
+	        #3 0x7f66060d62d4  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x102d4)
+		    #4 0x7f66060e803b  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x2203b)
+		        #5 0x7f66060f01a4  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x2a1a4)
+			    #6 0x7f66060f08fe  (/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0+0x2a8fe)
+			        #7 0x7f6606818d6b  (/usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0+0x249d6b)
+				    #8 0x7f660670077a  (/usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0+0x13177a)
+				        #9 0x7f6606373b5b  (/usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0+0x5ab5b)
+					    #10 0x7f6605e00c3c  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x49c3c)
+					        #11 0x7f6605e00f1f  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x49f1f)
+						    #12 0x7f6605e01241  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4a241)
+						        #13 0x7f66066ff596  (/usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0+0x130596)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+74
+cclive
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching cclive
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package cclive.
+(Reading database ... 230116 files and directories currently installed.)
+Preparing to unpack .../cclive_0.7.16-2_amd64.deb ...
+Unpacking cclive (0.7.16-2) ...
+Setting up cclive (0.7.16-2) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==11738==ERROR: AddressSanitizer: global-buffer-overflow on address 0x0000007ff600 at pc 0x000000455b57 bp 0x7fffbc3ff510 sp 0x7fffbc3ff508
+READ of size 4 at 0x0000007ff600 thread T0
+    #0 0x455b56  (/usr/bin/cclive+0x455b56)
+        #1 0x5a7c9c  (/usr/bin/cclive+0x5a7c9c)
+	    #2 0x7fabfc294ad4  (/lib/x86_64-linux-gnu/libc.so.6+0x21ad4)
+	        #3 0x455d08  (/usr/bin/cclive+0x455d08)
+
+0x0000007ff600 is located 40 bytes to the right of global variable 'boost::program_options::arg' defined in 'libs/program_options/src/value_semantic.\
+cpp:85:44' (0x7ff5d0) of size 8
+0x0000007ff600 is located 0 bytes inside of global variable 'boost::program_options::options_description::m_default_line_length' defined in 'libs/pro\
+gram_options/src/options_description.cpp:262:41' (0x7ff600) of size 4
+Shadow bytes around the buggy address:
+  0x0000800f7e70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    0x0000800f7e80: 00 00 00 00 00 00 00 00 00 00 00 00 00 f9 f9 f9
+      0x0000800f7e90: f9 f9 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        0x0000800f7ea0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+85
+cdck
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching cdck
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package cdck.
+(Reading database ... 230315 files and directories currently installed.)
+Preparing to unpack .../cdck_0.7.0+dfsg-1_amd64.deb ...
+Unpacking cdck (0.7.0+dfsg-1) ...
+Setting up cdck (0.7.0+dfsg-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+
+[TRY RUNNING 1:]
+Unable to read TOC because unable to open cdrom '/dev/cdrom', reason: No medium found
+ASAN:SIGSEGV
+=================================================================
+==12580==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x00000043861f bp 0xbebebebebebebeae sp 0x7fffbca35da0 T0)
+    #0 0x43861e  (/usr/bin/cdck+0x43861e)
+        #1 0x4bea11  (/usr/bin/cdck+0x4bea11)
+	    #2 0x4de7e6  (/usr/bin/cdck+0x4de7e6)
+	        #3 0x4de440  (/usr/bin/cdck+0x4de440)
+		    #4 0x7fddd02afb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+		        #5 0x437c60  (/usr/bin/cdck+0x437c60)
+
+AddressSanitizer can not provide additional info.
+==12580==ABORTING
+[TRY RUNNING 2:]
+Unable to read TOC because unable to open cdrom '/dev/cdrom', reason: No medium found
+ASAN:SIGSEGV
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+100
+cellwriter
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching cellwriter
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package cellwriter.
+(Reading database ... 230676 files and directories currently installed.)
+Preparing to unpack .../cellwriter_1.3.5-1_amd64.deb ...
+Unpacking cellwriter (1.3.5-1) ...
+Setting up cellwriter (1.3.5-1) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+Processing triggers for mime-support (3.58) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+=================================================================
+==13232==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 3840 byte(s) in 6 object(s) allocated from:
+    #0 0x4c4ca5  (/usr/bin/cellwriter+0x4c4ca5)
+        #1 0x7fac3b60968a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c4962  (/usr/bin/cellwriter+0x4c4962)
+        #1 0x7fac3b609739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+------------------------------------------------------------------
+[PACKAGE INFO:]
+126
+chemtool
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching chemtool
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package chemtool.
+(Reading database ... 220745 files and directories currently installed.)
+Preparing to unpack .../chemtool_1.6.14-1_amd64.deb ...
+Unpacking chemtool (1.6.14-1) ...
+dpkg: dependency problems prevent configuration of chemtool:
+ chemtool depends on transfig; however:
+   Package transfig is not installed.
+
+=================================================================
+==6546==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 3840 byte(s) in 6 object(s) allocated from:
+    #0 0x4c5b85  (/usr/bin/chemtool+0x4c5b85)
+        #1 0x7f80f3a5868a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c5842  (/usr/bin/chemtool+0x4c5842)
+        #1 0x7f80f3a58739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Indirect leak of 9472 byte(s) in 296 object(s) allocated from:
+    #0 0x4c5842  (/usr/bin/chemtool+0x4c5842)
+        #1 0x7f80f3a4740f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+	-------------------------------------------------------------------
+	[PACKAGE INFO:]
+	131
+	chktex
+	[CHECK IF ALREADY INSTALLED:]
+	dpkg-query: no packages found matching chktex
+	[INSTALLING NEW PACKAGE:]
+	Selecting previously unselected package chktex.
+	(Reading database ... 221029 files and directories currently installed.)
+	Preparing to unpack .../chktex_1.7.2-1_amd64.deb ...
+	Unpacking chktex (1.7.2-1) ...
+	Setting up chktex (1.7.2-1) ...
+	[INSTALL DEPENDENCIES:]
+	Reading package lists...
+	Building dependency tree...
+	Reading state information...
+
+
+=================================================================
+==6880==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 656 byte(s) in 41 object(s) allocated from:
+    #0 0x4bde92  (/usr/bin/chktex+0x4bde92)
+        #1 0x4ec5b2  (/usr/bin/chktex+0x4ec5b2)
+	    #2 0x4ec8f4  (/usr/bin/chktex+0x4ec8f4)
+	        #3 0x4eaf61  (/usr/bin/chktex+0x4eaf61)
+		    #4 0x4dd309  (/usr/bin/chktex+0x4dd309)
+		        #5 0x7fe6bd042b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 6 byte(s) in 1 object(s) allocated from:
+    #0 0x4bde92  (/usr/bin/chktex+0x4bde92)
+        #1 0x7fe6bd0a29d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+134
+choosewm
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching choosewm
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package choosewm.
+(Reading database ... 221111 files and directories currently installed.)
+Preparing to unpack .../choosewm_0.1.6-3_amd64.deb ...
+Unpacking choosewm (0.1.6-3) ...
+Setting up choosewm (0.1.6-3) ...
+update-alternatives: using /usr/bin/choosewm to provide /usr/bin/x-session-manager (x-session-manager) in auto mode
+[INSTALL DEPENDENCIES:]
+
+=================================================================
+==7044==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x4bdf55  (/usr/bin/choosewm+0x4bdf55)
+        #1 0x7f4f7e49268a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4bdc12  (/usr/bin/choosewm+0x4bdc12)
+        #1 0x7f4f7e492739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+144
+c-icap
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching c-icap
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package c-icap.
+(Reading database ... 221816 files and directories currently installed.)
+Preparing to unpack .../c-icap_0.3.5-1_amd64.deb ...
+Unpacking c-icap (1:0.3.5-1) ...
+Selecting previously unselected package libicapapi3.
+Preparing to unpack .../libicapapi3_0.3.5-1_amd64.deb ...
+
+=================================================================
+==7493==ERROR: AddressSanitizer: global-buffer-overflow on address 0x000000750884 at pc 0x0000004a8eec bp 0x7ffec03c6fd0 sp 0x7ffec03c6788
+READ of size 8 at 0x000000750884 thread T0
+    #0 0x4a8eeb  (/usr/bin/c-icap+0x4a8eeb)
+        #1 0x4efed6  (/usr/bin/c-icap+0x4efed6)
+	    #2 0x4ee590  (/usr/bin/c-icap+0x4ee590)
+	        #3 0x4f1b00  (/usr/bin/c-icap+0x4f1b00)
+		    #4 0x4f0ce9  (/usr/bin/c-icap+0x4f0ce9)
+		        #5 0x4f1cbe  (/usr/bin/c-icap+0x4f1cbe)
+			    #6 0x4df444  (/usr/bin/c-icap+0x4df444)
+			        #7 0x7fb0f580bb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+				    #8 0x438a26  (/usr/bin/c-icap+0x438a26)
+
+0x000000750884 is located 0 bytes to the right of global variable 'CI_BODY_MAX_MEM' defined in 'body.c:256:5' (0x750880) of size 4
+0x000000750884 is located 60 bytes to the left of global variable 'ci_error_codes' defined in 'header.c:87:28' (0x7508c0) of size 256
+Shadow bytes around the buggy address:
+  0x0000800e20c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    0x0000800e20d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+154
+ckon
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching ckon
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package ckon.
+(Reading database ... 222340 files and directories currently installed.)
+Preparing to unpack ckon/ckon_0.7.1-3_amd64.deb ...
+Unpacking ckon (0.7.1-3) ...
+Setting up ckon (0.7.1-3) ...
+
+=================================================================
+==7831==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 192 byte(s) in 1 object(s) allocated from:
+    #0 0x4efac2  (/usr/bin/ckon+0x4efac2)
+        #1 0x522cc5  (/usr/bin/ckon+0x522cc5)
+	    #2 0x7f7ddc58bb44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 320 byte(s) in 10 object(s) allocated from:
+    #0 0x4efac2  (/usr/bin/ckon+0x4efac2)
+        #1 0x7f7dde3b0e98  (/usr/lib/x86_64-linux-gnu/libstdc++.so.6+0xbee98)
+
+SUMMARY: AddressSanitizer: 512 byte(s) leaked in 11 allocation(s).
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+232
+concalc
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching concalc
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package concalc.
+(Reading database ... 223966 files and directories currently installed.)
+Preparing to unpack .../concalc_0.9.2-2_amd64.deb ...
+Unpacking concalc (0.9.2-2) ...
+Setting up concalc (0.9.2-2) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed.
+
+
+=================================================================
+==10674==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2268 byte(s) in 27 object(s) allocated from:
+    #0 0x4ddab2  (/usr/bin/concalc+0x4ddab2)
+        #1 0x4e8a92  (/usr/bin/concalc+0x4e8a92)
+	    #2 0x4e199c  (/usr/bin/concalc+0x4e199c)
+	        #3 0x7f5b7959ab44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 2241 byte(s) in 27 object(s) allocated from:
+    #0 0x4ddab2  (/usr/bin/concalc+0x4ddab2)
+        #1 0x4e8a92  (/usr/bin/concalc+0x4e8a92)
+	    #2 0x4e1901  (/usr/bin/concalc+0x4e1901)
+	        #3 0x7f5b7959ab44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+242
+conky
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching conky
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package conky-all.
+(Reading database ... 224194 files and directories currently installed.)
+Preparing to unpack .../conky-all_1.9.0-6_amd64.deb ...
+Unpacking conky-all (1.9.0-6) ...
+Selecting previously unselected package conky-all-dbg.
+Preparing to unpack .../conky-all-dbg_1.9.0-6_amd64.deb ...
+Unpacking conky-all-dbg (1.9.0-6) ...
+Selecting previously unselected package conky-c
+=================================================================
+==11203==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 60984 byte(s) in 1 object(s) allocated from:
+    #0 0x4c7d02  (/usr/bin/conky+0x4c7d02)
+        #1 0x7f71b7f0d62b  (/usr/lib/x86_64-linux-gnu/libXft.so.2+0xb62b)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c7d02  (/usr/bin/conky+0x4c7d02)
+        #1 0x7f71b6de5739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 768 byte(s) in 1 object(s) allocated from:
+    #0 0x4c8045  (/usr/bin/conky+0x4c8045)
+        #1 0x7f71b6de568a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+286
+cproto
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  cproto                          4.7l-4               amd64                utilities to generate C function prototypes from C source code
+already installed
+[TRY RUNNING 3:]
+/* stdin */
+stdin:2: syntax error at token 'cpufreqd'
+stdin:15: bad character '-'
+stdin:23: bad character '-'
+stdin:29: bad character '-'
+stdin:60: bad character '-'
+stdin:61: bad character '-'
+stdin:62: bad character '-'
+stdin:62: bad character '-'
+stdin:63: bad character '-'
+stdin:87: bad character '-'
+stdin:87: bad character '-'
+stdin:88: bad character '-'
+stdin:88: bad character '-'
+stdin:88: bad character '2'
+stdin:88: bad character '.'
+stdin:88: bad character '4'
+stdin:89: bad character '-'
+stdin:90: bad character '-'
+stdin:91: bad character '.'
+stdin:92: bad character '.'
+stdin:93: bad character '.'
+stdin:93: bad character '~'
+stdin:94: bad character '.'
+
+=================================================================
+==13045==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 120 byte(s) in 1 object(s) allocated from:
+    #0 0x4bddb2  (/usr/bin/cproto+0x4bddb2)
+        #1 0x4dd1ad  (/usr/bin/cproto+0x4dd1ad)
+	    #2 0x4e380d  (/usr/bin/cproto+0x4e380d)
+	        #3 0x4eb259  (/usr/bin/cproto+0x4eb259)
+		    #4 0x4fc302  (/usr/bin/cproto+0x4fc302)
+		        #5 0x4de8f9  (/usr/bin/cproto+0x4de8f9)
+			    #6 0x7fb6b8792b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 4 byte(s) in 1 object(s) allocated from:
+    #0 0x4bddb2  (/usr/bin/cproto+0x4bddb2)
+        #1 0x4dd29c  (/usr/bin/cproto+0x4dd29c)
+	    #2 0x4e3818  (/usr/bin/cproto+0x4e3818)
+	        #3 0x4eb259  (/usr/bin/cproto+0x4eb259)
+		    #4 0x4fc302  (/usr/bin/cproto+0x4fc302)
+		        #5 0x4de8f9  (/usr/bin/cproto+0x4de8f9)
+			    #6 0x7fb6b8792b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Indirect leak of 4 byte(s) in 1 object(s) allocated from:
+    #0 0x4bddb2  (/usr/bin/cproto+0x4bddb2)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+319
+cryptkeeper
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching cryptkeeper
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package cryptkeeper.
+(Reading database ... 226307 files and directories currently installed.)
+Preparing to unpack .../cryptkeeper_0.9.5-5.1_amd64.deb ...
+Unpacking cryptkeeper (0.9.5-5.1) ...
+dpkg: dependency problems prevent configuration of cryptkeeper:
+ cryptkeeper depends on encfs; however:
+
+=================================================================
+==14318==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x4c1ba5  (/usr/bin/cryptkeeper+0x4c1ba5)
+        #1 0x7f48cd68e68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c1862  (/usr/bin/cryptkeeper+0x4c1862)
+        #1 0x7f48cd68e739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+338
+ctsim
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching ctsim
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package ctsim.
+(Reading database ... 227224 files and directories currently installed.)
+Preparing to unpack ctsim/ctsim_5.2.0-2_amd64.deb ...
+
+=================================================================
+==15060==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x5141b5  (/usr/bin/ctsim+0x5141b5)
+        #1 0x7fc90418268a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x513e72  (/usr/bin/ctsim+0x513e72)
+        #1 0x7fc904182739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+361
+cvsgraph
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                            Version              Architecture         Description
++++-===============================-====================-====================-====================================================================
+ii  cvsgraph                        1.7.0-4              amd64                Create a tree of revisions/branches from a CVS/RCS file
+already installed
+[TRY RUNNING 3:]
+<stdin>: 1: syntax error, unexpected tNEWPHRASE, expecting tHEAD
+
+=================================================================
+==16289==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 151 byte(s) in 21 object(s) allocated from:
+    #0 0x4bd9b2  (/usr/bin/cvsgraph+0x4bd9b2)
+        #1 0x504a7c  (/usr/bin/cvsgraph+0x504a7c)
+	    #2 0x504655  (/usr/bin/cvsgraph+0x504655)
+	        #3 0x500c2c  (/usr/bin/cvsgraph+0x500c2c)
+		    #4 0x500537  (/usr/bin/cvsgraph+0x500537)
+		        #5 0x4df540  (/usr/bin/cvsgraph+0x4df540)
+			    #6 0x7f0504cb0b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 35 byte(s) in 1 object(s) allocated from:
+    #0 0x4bd9b2  (/usr/bin/cvsgraph+0x4bd9b2)
+        #1 0x504a7c  (/usr/bin/cvsgraph+0x504a7c)
+	    #2 0x4df310  (/usr/bin/cvsgraph+0x4df310)
+	        #3 0x7f0504cb0b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+49
+dc3dd
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching dc3dd
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package dc3dd.
+(Reading database ... 224041 files and directories currently installed.)
+Preparing to unpack .../dc3dd_7.2.641-3_amd64.deb ...
+Unpacking dc3dd (7.2.641-3) ...
+Setting up dc3dd (7.2.641-3) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Correcting dependencies... failed
+=================================================================
+==24503==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 112 byte(s) in 1 object(s) allocated from:
+    #0 0x7f8b34c90ad2  (/usr/bin/dc3dd+0xccad2)
+        #1 0x7f8b34cb4429  (/usr/bin/dc3dd+0xf0429)
+	    #2 0x7f8b33ad9b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 48 byte(s) in 1 object(s) allocated from:
+    #0 0x7f8b34c90ad2  (/usr/bin/dc3dd+0xccad2)
+        #1 0x7f8b34cb762d  (/usr/bin/dc3dd+0xf362d)
+	    #2 0x7f8b33ad9b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+50
+dcfldd
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching dcfldd
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package dcfldd.
+(Reading database ... 224159 files and directories currently installed.)
+Preparing to unpack .../dcfldd_1.3.4.1-9_amd64.deb ...
+Unpacking dcfldd (1.3.4.1-9) ...
+Setting up dcfldd (1.3.4.1-9) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+Reading state information...
+
+
+=================================================================
+==24599==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 66 byte(s) in 2 object(s) allocated from:
+    #0 0x7f3c9585cbb2  (/usr/bin/dcfldd+0xc6bb2)
+        #1 0x7f3c9470ba29  (/lib/x86_64-linux-gnu/libc.so.6+0x81a29)
+
+SUMMARY: AddressSanitizer: 66 byte(s) leaked in 2 allocation(s).
+[TRY RUNNING 2:]
+
+0+0 records in
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+63
+deb-gview
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching deb-gview
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package deb-gview.
+(Reading database ... 224436 files and directories currently installed.)
+Preparing to unpack .../deb-gview_0.2.11_amd64.deb ...
+Unpacking deb-gview (0.2.11) ...
+Setting up deb-gview (0.2.11) ...
+Processing triggers for mime-support (3.58) ...
+Processing triggers for gnome-menus (3.13.3-6) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+
+
+=================================================================
+==25051==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4c24a2  (/usr/bin/deb-gview+0x4c24a2)
+        #1 0x7f41c8858739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 2080 byte(s) in 2 object(s) allocated from:
+    #0 0x4c27e5  (/usr/bin/deb-gview+0x4c27e5)
+        #1 0x7f41cb60385d  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f85d)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+86
+devilspie2
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching devilspie2
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package devilspie2.
+(Reading database ... 226044 files and directories currently installed.)
+Preparing to unpack .../devilspie2_0.39-1_amd64.deb ...
+Unpacking devilspie2 (0.39-1) ...
+Setting up devilspie2 (0.39-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+
+
+=================================================================
+==26474==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 88 byte(s) in 1 object(s) allocated from:
+    #0 0x4c042b  (/usr/bin/devilspie2+0x4c042b)
+        #1 0x7f5a5028a7f1  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f7f1)
+
+Direct leak of 25 byte(s) in 1 object(s) allocated from:
+    #0 0x4c02b2  (/usr/bin/devilspie2+0x4c02b2)
+        #1 0x7f5a5028a799  (/lib/x86_64-linux-gnu/libglib-2.0.so.0+0x4f799)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+138
+display-dhammapada
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching display-dhammapada
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package display-dhammapada.
+(Reading database ... 227385 files and directories currently installed.)
+Preparing to unpack .../display-dhammapada_1.0-0.1_amd64.deb ...
+Unpacking display-dhammapada (1.0-0.1) ...
+Setting up display-dhammapada (1.0-0.1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+
+=================================================================
+==9886==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 128 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc562  (/usr/bin/display-dhammapada+0x4bc562)
+        #1 0x7fada8d7670b  (/lib/x86_64-linux-gnu/libc.so.6+0x2270b)
+	    #2 0x7fada8d7627a  (/lib/x86_64-linux-gnu/libc.so.6+0x2227a)
+	        #3 0x4dc70a  (/usr/bin/display-dhammapada+0x4dc70a)
+		    #4 0x7fada8d75b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+Direct leak of 128 byte(s) in 1 object(s) allocated from:
+    #0 0x4bc562  (/usr/bin/display-dhammapada+0x4bc562)
+        #1 0x7fada8d7670b  (/lib/x86_64-linux-gnu/libc.so.6+0x2270b)
+	    #2 0x7fada8d7627a  (/lib/x86_64-linux-gnu/libc.so.6+0x2227a)
+	        #3 0x4dc722  (/usr/bin/display-dhammapada+0x4dc722)
+		    #4 0x7fada8d75b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+154
+dlume
+[CHECK IF ALREADY INSTALLED:]
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=========================================
+ii  dlume          0.2.4-12     amd64        simple and easy to use addressbook (GTK+)
+already installed
+[TRY RUNNING 3:]
+[FATAL] dlume: Another process has locked the database: /root/.dlume/dlume.lock
+
+=================================================================
+==14236==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x7f081c0bbcd2  (/usr/bin/dlume+0x19ecd2)
+        #1 0x7f0817d1e739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 1280 byte(s) in 2 object(s) allocated from:
+    #0 0x7f081c0bc015  (/usr/bin/dlume+0x19f015)
+        #1 0x7f0817d1e68a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+212
+dssp
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching dssp
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package dssp.
+(Reading database ... 231229 files and directories currently installed.)
+
+==16801==AddressSanitizer CHECK failed: /tmp/buildd/llvm-toolchain-3.6-3.6.1/projects/compiler-rt/lib/asan/asan_globals.cc:151 "((AddrIsAlignedByGran\
+ularity(g->beg))) != (0)" (0x0, 0x0)
+    #0 0x4fdc64  (/usr/bin/mkdssp+0x4fdc64)
+        #1 0x5045e1  (/usr/bin/mkdssp+0x5045e1)
+	    #2 0x477d66  (/usr/bin/mkdssp+0x477d66)
+	        #3 0x7fc51d04c1b6  (/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.55.0+0x241b6)
+		    #4 0x7fc51d7689f9  (/lib64/ld-linux-x86-64.so.2+0xe9f9)
+		        #5 0x7fc51d768ae2  (/lib64/ld-linux-x86-64.so.2+0xeae2)
+			    #6 0x7fc51d75b1c9  (/lib64/ld-linux-x86-64.so.2+0x11c9)
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+248
+dwdiff
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching dwdiff
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package dwdiff.
+(Reading database ... 232145 files and directories currently installed.)
+Preparing to unpack .../dwdiff_2.1.0-1_amd64.deb ...
+Unpacking dwdiff (2.1.0-1) ...
+Setting up dwdiff (2.1.0-1) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+Building dependency tree...
+
+
+=================================================================
+==18345==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 16 byte(s) in 1 object(s) allocated from:
+    #0 0x4bd8f2  (/usr/bin/dwdiff+0x4bd8f2)
+        #1 0x4eee13  (/usr/bin/dwdiff+0x4eee13)
+	    #2 0x4e7c5d  (/usr/bin/dwdiff+0x4e7c5d)
+	        #3 0x4f2027  (/usr/bin/dwdiff+0x4f2027)
+		    #4 0x7f3fcebc6b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 16 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 2:]
+Need two files to compare
+
+=================================================================
+==18347==ERROR: LeakSanitizer: detected memory leaks
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+254
+dzen2
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching dzen2
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package dzen2.
+(Reading database ... 233447 files and directories currently installed.)
+Preparing to unpack .../dzen2_0.9.5~svn271-4_amd64.deb ...
+Unpacking dzen2 (0.9.5~svn271-4) ...
+Setting up dzen2 (0.9.5~svn271-4) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+
+=================================================================
+==18610==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4be4c2  (/usr/bin/dzen2+0x4be4c2)
+        #1 0x7fe362c30739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Direct leak of 768 byte(s) in 1 object(s) allocated from:
+    #0 0x4be805  (/usr/bin/dzen2+0x4be805)
+        #1 0x7fe362c3068a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 520 byte(s) in 1 object(s) allocated from:
+    #0 0x4be4c2  (/usr/bin/dzen2+0x4be4c2)
+        #1 0x4ea7ce  (/usr/bin/dzen2+0x4ea7ce)
+	    #2 0x4ece53  (/usr/bin/dzen2+0x4ece53)
+
+
+
+from f………………………………………………
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+12
+fakeroot-ng
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching fakeroot-ng
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package fakeroot-ng.
+(Reading database ... 228872 files and directories currently installed.)
+Preparing to unpack .../fakeroot-ng_0.18-4_amd64.deb ...
+Unpacking fakeroot-ng (0.18-4) ...
+Setting up fakeroot-ng (0.18-4) ...
+[INSTALL DEPENDENCIES:]
+Reading package lists...
+
+=================================================================
+==26036==ERROR: AddressSanitizer: alloc-dealloc-mismatch (operator new [] vs operator delete) on 0x60300000efb0
+    #0 0x4e1d42  (/usr/bin/fakeroot-ng+0x4e1d42)
+        #1 0x4e2beb  (/usr/bin/fakeroot-ng+0x4e2beb)
+	    #2 0x7facfc7e5b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+	        #3 0x43b33c  (/usr/bin/fakeroot-ng+0x43b33c)
+
+0x60300000efb0 is located 0 bytes inside of 24-byte region [0x60300000efb0,0x60300000ef
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+29
+fatrace
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching fatrace
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package fatrace.
+(Reading database ... 229311 files and directories currently installed.)
+Preparing to unpack .../fatrace_0.10-1_amd64.deb ...
+Unpacking fatrace (0.10-1) ...
+Setting up fatrace (0.10-1) ...
+
+=================================================================
+==26750==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 262144 byte(s) in 1 object(s) allocated from:
+    #0 0x4bd02c  (/usr/sbin/fatrace+0x4bd02c)
+        #1 0x4dc176  (/usr/sbin/fatrace+0x4dc176)
+	    #2 0x7f3d41cd7b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+SUMMARY: AddressSanitizer: 262144 byte(s) leaked in 1 allocation(s).
+[TRY RUNNING 2:]
+install_check.sh: line 22: /usr/bin/fatrace: No such file or directory
+
+
+
+-------------------------------------------------------------------
+[PACKAGE INFO:]
+40
+fbautostart
+[CHECK IF ALREADY INSTALLED:]
+dpkg-query: no packages found matching fbautostart
+[INSTALLING NEW PACKAGE:]
+Selecting previously unselected package fbautostart.
+(Reading database ... 229722 files and directories currently installed.)
+Preparing to unpack .../fbautostart_2.718281828-1_amd64.deb ...
+Unpacking fbautostart (2.718281828-1) ...
+Setting up fbautostart (2.718281828-1) ...
+[INSTALL DEPENDENCIES:]
+
+
+=================================================================
+==27081==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 8944 byte(s) in 1118 object(s) allocated from:
+    #0 0x4de792  (/usr/bin/fbautostart+0x4de792)
+        #1 0x4df709  (/usr/bin/fbautostart+0x4df709)
+	    #2 0x4dfd75  (/usr/bin/fbautostart+0x4dfd75)
+	        #3 0x4f0919  (/usr/bin/fbautostart+0x4f0919)
+		    #4 0x4f1445  (/usr/bin/fbautostart+0x4f1445)
+		        #5 0x4e3603  (/usr/bin/fbautostart+0x4e3603)
+			    #6 0x7f5a64b76b44  (/lib/x86_64-linux-gnu/libc.so.6+0x21b44)
+
+
+
+
+-------------------------------------------------------------------
+4
+m17n-im-config
+dpkg-query: no packages found matching m17n-im-config
+Selecting previously unselected package libm17n-im-config0.
+(Reading database ... 153927 files and directories currently installed.)
+Preparing to unpack .../libm17n-im-config0_0.9.0-3_amd64.deb ...
+Unpacking libm17n-im-config0 (0.9.0-3) ...
+Selecting previously unselected package libm17n-im-config-dev.
+Preparing to unpack .../libm17n-im-config-dev_0.9.0-3_amd64.deb ...
+Unpacking libm17n-im-config-dev (0.9.0-3) ...
+Selecting previously unselected package m17n-im-config.
+Preparing to unpack .../m17n-im-config_0.9.0-3_amd64.deb ...
+Unpacking m17n-im-config (0.9.0-3) ...
+Setting up libm17n-im-config0 (0.9.0-3) ...
+dpkg: dependency problems prevent configuration of libm17n-im-config-dev:
+ libm17n-im-config-dev depends on libm17n-dev; however:
+  Package libm17n-dev is not installed.
+
+dpkg: error processing package libm17n-im-config-dev (--install):
+ dependency problems - leaving unconfigured
+Setting up m17n-im-config (0.9.0-3) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for libc-bin (2.19-18) ...
+Errors were encountered while processing:
+ libm17n-im-config-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Correcting dependencies... Done
+The following packages were automatically installed and are no longer required:
+  baobab bluez caribou caribou-antler dconf-editor dconf-tools empathy empathy-common fonts-cantarell gcalctool gir1.2-gmenu-3.0 gir1.2-gtop-2.0
+  gnome-bluetooth gnome-calculator gnome-dictionary gnome-disk-utility gnome-font-viewer gnome-icon-theme-extras gnome-online-miners
+  gnome-packagekit gnome-packagekit-data gnome-packagekit-session gnome-screenshot gnome-session-fallback gnome-shell-extensions gnome-system-log
+  gnome-system-monitor gstreamer0.10-pulseaudio gstreamer1.0-nice gtk2-engines gucharmap libatk-adaptor libatkmm-1.6-1 libavahi-ui-gtk3-0
+  libbluetooth3 libcairomm-1.0-1 libcaribou-gtk-module libcaribou-gtk3-module libchamplain-0.12-0 libchamplain-gtk-0.12-0 libdevmapper-event1.02.1
+  libelfg0 libfarstream-0.2-2 libfftw3-3 libfftw3-long3 libgail-common libgail18 libgcr-3-1 libgdict-1.0-6 libgdict-common libgdu-gtk0 libgdu0
+  libgfbgraph-0.2-0 libglibmm-2.4-1c2a libgssdp-1.0-3 libgtkmm-3.0-1 libgucharmap-2-90-7 libgupnp-1.0-4 libgupnp-igd-1.0-4 libimobiledevice2
+  libjson0 liblcms1 liblvm2app2.2 libmediaart-1.0-0 libnice10 libopenobex1 libpangomm-1.4-1 libparted0debian1 libplist1 libpoppler19
+  libsystemd-daemon0 libsystemd-login0 libt1-5 libtelepathy-farstream3 libtracker-miner-1.0-0 libunique-3.0-0 libusbmuxd1 libvte-2.90-9
+  libvte-2.90-common libzapojit-0.0-0 obex-data-server python-pyatspi python-wxgtk3.0 python-wxversion sound-theme-freedesktop telepathy-logger
+  udisks vino
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  libdatrie-dev libdatrie1 libm17n-dev libthai-dev libthai0
+Suggested packages:
+  libdatrie-doc m17n-docs libthai-doc
+The following NEW packages will be installed:
+  libdatrie-dev libm17n-dev libthai-dev
+The following packages will be upgraded:
+  libdatrie1 libthai0
+2 upgraded, 3 newly installed, 0 to remove and 638 not upgraded.
+1 not fully installed or removed.
+Need to get 284 kB/366 kB of archives.
+After this operation, 1,188 kB of additional disk space will be used.
+Get:1 http://http.debian.net/debian/ unstable/main libdatrie-dev amd64 0.2.9-2 [17.4 kB]
+Get:2 http://http.debian.net/debian/ unstable/main libthai-dev amd64 0.1.22-2 [23.7 kB]
+Get:3 http://http.debian.net/debian/ unstable/main libm17n-dev amd64 1.6.4-3 [243 kB]
+Fetched 284 kB in 8s (32.3 kB/s)                                                                                                                     
+Reading changelogs... Done
+(Reading database ... 153955 files and directories currently installed.)
+Preparing to unpack .../libdatrie1_0.2.9-2_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.9-2) over (0.2.8-1) ...
+Selecting previously unselected package libdatrie-dev:amd64.
+Preparing to unpack .../libdatrie-dev_0.2.9-2_amd64.deb ...
+Unpacking libdatrie-dev:amd64 (0.2.9-2) ...
+Preparing to unpack .../libthai0_0.1.22-2_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.22-2) over (0.1.21-1) ...
+Selecting previously unselected package libthai-dev:amd64.
+Preparing to unpack .../libthai-dev_0.1.22-2_amd64.deb ...
+Unpacking libthai-dev:amd64 (0.1.22-2) ...
+Selecting previously unselected package libm17n-dev.
+Preparing to unpack .../libm17n-dev_1.6.4-3_amd64.deb ...
+Unpacking libm17n-dev (1.6.4-3) ...
+Setting up libdatrie1:amd64 (0.2.9-2) ...
+Setting up libdatrie-dev:amd64 (0.2.9-2) ...
+Setting up libthai0:amd64 (0.1.22-2) ...
+Setting up libthai-dev:amd64 (0.1.22-2) ...
+Setting up libm17n-dev (1.6.4-3) ...
+Setting up libm17n-im-config-dev (0.9.0-3) ...
+Processing triggers for libc-bin (2.19-18) ...
+
+=================================================================
+==13678==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2560 byte(s) in 4 object(s) allocated from:
+    #0 0x4bcf55  (/usr/bin/m17n-im-config+0x4bcf55)
+    #1 0x7faef79b168a  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c68a)
+
+Direct leak of 2304 byte(s) in 9 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79b1739  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c739)
+
+Indirect leak of 6016 byte(s) in 188 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79a040f  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0xb40f)
+
+Indirect leak of 3095 byte(s) in 250 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef666f9d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+Indirect leak of 2688 byte(s) in 84 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b1df8  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1cdf8)
+
+Indirect leak of 1856 byte(s) in 58 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b1324  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c324)
+
+Indirect leak of 128 byte(s) in 4 object(s) allocated from:
+    #0 0x4bcd8b  (/usr/bin/m17n-im-config+0x4bcd8b)
+    #1 0x7faef79b11a4  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x1c1a4)
+
+Indirect leak of 96 byte(s) in 2 object(s) allocated from:
+    #0 0x4bcc12  (/usr/bin/m17n-im-config+0x4bcc12)
+    #1 0x7faef79abe3d  (/usr/lib/x86_64-linux-gnu/libfontconfig.so.1+0x16e3d)
+
+SUMMARY: AddressSanitizer: 18743 byte(s) leaked in 599 allocation(s).
+
+
+
+-------------------------------------------------------------------
+19
+magicrescue
+install_check.sh: line 10: [: missing `]'
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+iU  madplay        0.15.2b-8    amd64        MPEG audio player in fixed point
+==17326==ERROR: AddressSanitizer failed to allocate 0x40000 (262144) bytes at address 633000000000 (errno: 12)
+==17326==AddressSanitizer CHECK failed: /tmp/buildd/llvm-toolchain-3.6-3.6.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_posix.cc:187 "(("unable to mmap" && 0)) != (0)" (0x0, 0x0)
+==17326==ERROR: AddressSanitizer failed to allocate 0x2000 (8192) bytes of InternalScopedBuffer (errno: 12)
+ERROR: Failed to mmap
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-=================================
+iU  magic          7.5.241-1    amd64        VLSI layout tool
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+34
+man2html
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-====================================
+iU  man2html       1.6g-7       amd64        browse man pages in your web browser
+
+=================================================================
+==20785==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 8 byte(s) in 2 object(s) allocated from:
+    #0 0x4bcf72  (/usr/bin/man2html+0x4bcf72)
+    #1 0x7fb6139119d9  (/lib/x86_64-linux-gnu/libc.so.6+0x819d9)
+
+SUMMARY: AddressSanitizer: 8 byte(s) leaked in 2 allocation(s).
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+59
+mathomatic
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name           Version      Architecture Description
++++-==============-============-============-======================================
+ii  mathomatic     15.8.2-2     amd64        portable Computer Algebra System (CAS)
+Mathomatic version 15.8.2
+Copyright (C) 1987-2012 George Gesslein II.
+200 equation spaces available in memory,
+1920 kilobytes per equation space.
+ANSI color mode enabled; manage by typing "help color".
+Anything done here is temporary, unless it is saved or redirected.
+1-> mathtex
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mathwar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> matroxset
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> maxima
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> maximus
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mayavi2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mbtserver
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mbuffer
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mccs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcl
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcpp
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mcp-plugins
+
+#1: [0;32mmcp - plugins[0m
+
+1-> md5deep
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #1.
+1-> mda-lv2
+
+#2: [0;32mmda - lv2[0m
+
+2-> mdbus
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mdetect
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mdf2iso
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> meanwhile
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mediainfo
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #2.
+2-> mediawiki-math
+
+#3: [0;32mmediawiki - math[0m
+
+3-> medit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mednafen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> megaglest
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> megatools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> meliae
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> melting
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> members
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memdump
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memlockd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memstat
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> memtester
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> menhir
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> menu
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mergelog
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> merkaartor
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #3.
+3-> mesa-demos
+
+#4: [0;32mmesa - demos[0m
+
+4-> meschach
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #4.
+4-> metacam
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #4.
+4-> meta-gnome3
+
+#5: [0;32mmeta - gnome3[0m
+
+5-> meta-kde
+
+#6: [0;32mmeta - kde[0m
+
+6-> metapixel
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> metastore
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> metis
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #6.
+6-> me-tv
+
+#7: [0;32mme - tv[0m
+
+7-> mew
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #7.
+7-> mew-beta
+
+#8: [0;32mmew - beta[0m
+
+8-> mffm-fftw
+
+#9: [0;32mmffm - fftw[0m
+
+9-> mftrace
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mg
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mgen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> mialmpick
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> miaviewit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> miceamaze
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> microcom
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> microdc2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #9.
+9-> micro-httpd
+
+#10: [0;32mmicro - httpd[0m
+
+10-> micro-proxy
+
+#11: [0;32mmicro - proxy[0m
+
+11-> midgard2-core
+
+#12: [0;32mmidgard2 - core[0m
+
+12-> mididings
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> mighttpd2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> mikmatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> milkytracker
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #12.
+12-> milter-greylist
+
+#13: [0;32mmilter - greylist[0m
+
+13-> mimedefang
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mimelib1
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mimetex
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> min12xxw
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minbar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minbif
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> minetest
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> ming
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mingetty
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #13.
+13-> mingw-ocaml
+
+#14: [0;32mmingw - ocaml[0m
+
+14-> minidlna
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #14.
+14-> mini-httpd
+
+#15: [0;32mmini - httpd[0m
+
+15-> minimodem
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mininet
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minisapserver
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> ministat
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minitube
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miniupnpc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miniupnpd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minizip
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> minpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mirage
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miredo
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> miro
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> misery
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> missidentify
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> missingh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mixer.app
+          ^ [0;31mSyntax error.
+[0m15-> mixxx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mjpegtools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mklibs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mknfonts.tool
+             ^ [0;31mSyntax error.
+[0m15-> mksh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mktorrent
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mldonkey
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlmmj
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlocate
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpcap
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpost
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlpy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlterm
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #15.
+15-> mlv-smile
+
+#16: [0;32mmlv - smile[0m
+
+16-> mmass
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmdb
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmorph
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmpong
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mmv
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mnemonicode
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> mnormt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #16.
+16-> moblin-gtk-engine
+
+#17: [0;32mmoblin - gtk - engine[0m
+
+17-> mobyle
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #17.
+17-> mod-authnz-persona
+
+#18: [0;32mmod - authnz - persona[0m
+
+18-> mod-dnssd
+
+#19: [0;32mmod - dnssd[0m
+
+19-> modem-cmd
+
+#20: [0;32mmodem - cmd[0m
+
+20-> mod-gearman
+
+#21: [0;32mmod - gearman[0m
+
+21-> modglue
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #21.
+21-> mod-mono
+
+#22: [0;32mmod - mono[0m
+
+22-> modplugtools
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #22.
+22-> modsecurity-apache
+
+#23: [0;32mmodsecurity - apache[0m
+
+23-> mod-spamhaus
+
+#24: [0;32mmod - spamhaus[0m
+
+24-> mod-vhost-ldap
+
+#25: [0;32mmod - vhost - ldap[0m
+
+25-> mod-wsgi
+
+#26: [0;32mmod - wsgi[0m
+
+26-> mokutil
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> molds
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> mon
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #26.
+26-> mon-contrib
+
+#27: [0;32mmon - contrib[0m
+
+27-> monitoring-plugins
+
+#28: [0;32mmonitoring - plugins[0m
+
+28-> mono-fuse
+
+#29: [0;32mmono - fuse[0m
+
+29-> monopd
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #29.
+29-> monotone-viz
+
+#30: [0;32mmonotone - viz[0m
+
+30-> monster-masher
+
+#31: [0;32mmonster - masher[0m
+
+31-> monsterz
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #31.
+31-> moodbar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #31.
+31-> moon-buggy
+
+#32: [0;32mmoon - buggy[0m
+
+32-> moon-lander
+
+#33: [0;32mmoon - lander[0m
+
+33-> moonshot-gss-eap
+
+#34: [0;32mmoonshot - gss - eap[0m
+
+34-> moonshot-trust-router
+
+#35: [0;32mmoonshot - trust - router[0m
+
+35-> mooproxy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> moreutils
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morla
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morris
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse2ascii
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morsegen
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #35.
+35-> morse-simulator
+
+#36: [0;32mmorse - simulator[0m
+
+36-> mosh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mothur
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> motion
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mountall
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mountpy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mouseemu
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mousetweaks
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> movit
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mozplugger
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3blaster
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3check
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3diags
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3splt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp3val
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mp4v2
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpage
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpc123
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpdecimal
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpdscribble
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpegdemux
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpfi
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpgtx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpi4py
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mppenc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpqc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #36.
+36-> mpt-status
+
+#37: [0;32mmpt - status[0m
+
+37-> mpv
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrbayes
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mriconvert
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtdreader
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtg
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtgutils
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrtrix
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mruby
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mrxvt
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> mscompress
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> msgpack
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #37.
+37-> msgpack-python
+
+#38: [0;32mmsgpack - python[0m
+
+38-> msktutil
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msmtp
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msort
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #38.
+38-> msp430-libc
+
+#39: [0;32mmsp430 - libc[0m
+
+39-> msrtool
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #39.
+39-> msr-tools
+
+#40: [0;32mmsr - tools[0m
+
+40-> mssh
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mswatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtasc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtpaint
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mtpfs
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #40.
+40-> mt-st
+
+#41: [0;32mmt - st[0m
+
+41-> mtx
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #41.
+41-> mu-cade
+
+#42: [0;32mmu - cade[0m
+
+42-> mudlet
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multimail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multitail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multitee
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> multiwatch
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mumble
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mummer
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mummy
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mumps
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> munge
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muroar
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muroard
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> muse
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> music
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> musique
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #42.
+42-> mustang-plug
+
+#43: [0;32mmustang - plug[0m
+
+43-> mvtnorm
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mxml
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mydumper
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mygui
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myodbc
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myrescue
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> myspell
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #43.
+43-> mysql++
+           ^ [0;31mSyntax error.
+[0m43-> mysql-connector-c++
+                       ^ [0;31mSyntax error.
+[0m43-> mysql-ocaml
+
+#44: [0;32mmysql - ocaml[0m
+
+44-> mysql-workbench
+
+#45: [0;32mmysql - workbench[0m
+
+45-> mysqmail
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #45.
+45-> mythes
+[0;31mPlease enter an equation or a command like "help".
+[0mSolve failed for equation space #45.
+45-> mythtvfs-fuse
+
+#46: [0;32mmythtvfs - fuse[0m
+
+46-> packages.list
+             ^ [0;31mSyntax error.
+[0m46-> 
+End of input.
+
+=================================================================
+==22557==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2075 byte(s) in 234 object(s) allocated from:
+    #0 0x4c0a42  (/usr/bin/mathomatic+0x4c0a42)
+    #1 0x7fba06bdf298  (/lib/x86_64-linux-gnu/libreadline.so.6+0x37298)
+
+SUMMARY: AddressSanitizer: 2075 byte(s) leaked in 234 allocation(s).
+-------------------------------------------------------------------
