@@ -9,13 +9,11 @@ Its a further part of previous GSoC projects:
 So what is ASan:
 AddressSanitizer (aka ASan) is a memory error detector for C/C++.
 It finds:
-ASan is one of the sanitizers provided by compiler-rt project. Its a fast memory
-error detector, which can detect various bugs like:
-Out-of-bounds accesses to heap, stack and globals
-Use-after-free
-Use-after-return (to some extent)
-Double-free, invalid free
-Memory leaks (experimental)
+- Out-of-bounds accesses to heap, stack and globals
+- Use-after-free
+- Use-after-return (to some extent)
+- Double-free, invalid free
+- Memory leaks (experimental)
 
 We are using new Sanitize feature added in dpkg-upload 1.18.0, to add asan filter
 while building the code.
