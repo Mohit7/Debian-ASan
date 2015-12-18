@@ -22,11 +22,11 @@ Results:
 
 1) Compile-time errors:
    We got 121 FTBFS while building archive with ASan flag.
-   List is at compiletime_failures.list
+   List is at [compiletime_failures.list](https://github.com/Mohit7/Debian-ASan/blob/master/compiletime_failures.list)
 
 2) Run time errors:
    We tried to install and run every ASan build binary, and found many run time 
-   errors, which are listed at runtime_failures.list
-   For details, dumps are at runtime_failures.dump.  
+   errors, which are listed at [runtime_failures.list](https://github.com/Mohit7/Debian-ASan/blob/master/runtime_failures.list).
+   For details, dumps are at [runtime_failures.dump](https://github.com/Mohit7/Debian-ASan/blob/master/runtime_failures.dump).  
 
 
